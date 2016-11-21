@@ -1,0 +1,88 @@
+{Enfants Bronze Standards} {{Valse lente} Tango Quickstep} {type Standards age:min {} age:max 18 level Bronze} normal
+{Enfants Bronze/Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Bronze/Argent} normal
+{Enfants Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Argent} normal
+{Enfants Argent/Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Argent/Or} normal
+{Enfants Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Or} normal
+{Enfants Or/Etoile d'or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level {Or/Etoile d'or}} normal
+{Enfants Open Standards} {{Valse lente} Tango Quickstep} {type Standards age:min {} age:max 18 level Open} normal
+{Enfants Open Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Open} normal
+{Enfants Open Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level Open} normal
+{Enfants Huit danses Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level {Huit danses}} ten
+{Enfants Dix danses Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min {} age:max 18 level {Dix danses}} ten
+{Enfants Bronze Latines} {{Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level Bronze} normal
+{Enfants Bronze/Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level Bronze/Argent} normal
+{Enfants Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level Argent} normal
+{Enfants Argent/Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min {} age:max 18 level Argent/Or} normal
+{Enfants Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min {} age:max 18 level Or} normal
+{Enfants Or/Etoile d'or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min {} age:max 18 level {Or/Etoile d'or}} normal
+{Enfants Open Latines} {{Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level Open} normal
+{Enfants Open Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level Open} normal
+{Enfants Open Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min {} age:max 18 level Open} normal
+{Enfants Huit danses Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min {} age:max 18 level {Huit danses}} ten
+{Enfants Dix danses Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min {} age:max 18 level {Dix danses}} ten
+{Adultes Bronze Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 19 age:max 34 level Bronze} normal
+{Adultes Bronze/Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Bronze/Argent} normal
+{Adultes Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Argent} normal
+{Adultes Argent/Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Argent/Or} normal
+{Adultes Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Or} normal
+{Adultes Or/Etoile d'or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level {Or/Etoile d'or}} normal
+{Adultes Open Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 19 age:max 34 level Open} normal
+{Adultes Open Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Open} normal
+{Adultes Open Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level Open} normal
+{Adultes Huit danses Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level {Huit danses}} ten
+{Adultes Dix danses Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 19 age:max 34 level {Dix danses}} ten
+{Adultes Bronze Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level Bronze} normal
+{Adultes Bronze/Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level Bronze/Argent} normal
+{Adultes Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level Argent} normal
+{Adultes Argent/Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 19 age:max 34 level Argent/Or} normal
+{Adultes Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 19 age:max 34 level Or} normal
+{Adultes Or/Etoile d'or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 19 age:max 34 level {Or/Etoile d'or}} normal
+{Adultes Open Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level Open} normal
+{Adultes Open Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level Open} normal
+{Adultes Open Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 19 age:max 34 level Open} normal
+{Adultes Huit danses Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 19 age:max 34 level {Huit danses}} ten
+{Adultes Dix danses Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 19 age:max 34 level {Dix danses}} ten
+{Seniors Bronze Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 35 age:max 44 level Bronze} normal
+{Seniors Bronze/Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Bronze/Argent} normal
+{Seniors Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Argent} normal
+{Seniors Argent/Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Argent/Or} normal
+{Seniors Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Or} normal
+{Seniors Or/Etoile d'or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level {Or/Etoile d'or}} normal
+{Seniors Open Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 35 age:max 44 level Open} normal
+{Seniors Open Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Open} normal
+{Seniors Open Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level Open} normal
+{Seniors Huit danses Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level {Huit danses}} ten
+{Seniors Dix danses Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 35 age:max 44 level {Dix danses}} ten
+{Seniors Bronze Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level Bronze} normal
+{Seniors Bronze/Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level Bronze/Argent} normal
+{Seniors Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level Argent} normal
+{Seniors Argent/Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 35 age:max 44 level Argent/Or} normal
+{Seniors Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 35 age:max 44 level Or} normal
+{Seniors Or/Etoile d'or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 35 age:max 44 level {Or/Etoile d'or}} normal
+{Seniors Open Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level Open} normal
+{Seniors Open Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level Open} normal
+{Seniors Open Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 35 age:max 44 level Open} normal
+{Seniors Huit danses Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 35 age:max 44 level {Huit danses}} ten
+{Seniors Dix danses Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 35 age:max 44 level {Dix danses}} ten
+{Vétérans Bronze Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 45 age:max + level Bronze} normal
+{Vétérans Bronze/Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Bronze/Argent} normal
+{Vétérans Argent Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Argent} normal
+{Vétérans Argent/Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Argent/Or} normal
+{Vétérans Or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Or} normal
+{Vétérans Or/Etoile d'or Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level {Or/Etoile d'or}} normal
+{Vétérans Open Standards} {{Valse lente} Tango Quickstep} {type Standards age:min 45 age:max + level Open} normal
+{Vétérans Open Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Open} normal
+{Vétérans Open Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level Open} normal
+{Vétérans Huit danses Standards} {{Valse lente} Tango {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level {Huit danses}} ten
+{Vétérans Dix danses Standards} {{Valse lente} Tango {Valse viennoise} {Slow Foxtrot} Quickstep} {type Standards age:min 45 age:max + level {Dix danses}} ten
+{Vétérans Bronze Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level Bronze} normal
+{Vétérans Bronze/Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level Bronze/Argent} normal
+{Vétérans Argent Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level Argent} normal
+{Vétérans Argent/Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 45 age:max + level Argent/Or} normal
+{Vétérans Or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 45 age:max + level Or} normal
+{Vétérans Or/Etoile d'or Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 45 age:max + level {Or/Etoile d'or}} normal
+{Vétérans Open Latines} {{Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level Open} normal
+{Vétérans Open Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level Open} normal
+{Vétérans Open Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 45 age:max + level Open} normal
+{Vétérans Huit danses Latines} {Samba {Cha Cha} Rumba Jive} {type Latines age:min 45 age:max + level {Huit danses}} ten
+{Vétérans Dix danses Latines} {Samba {Cha Cha} Rumba {Paso Doble} Jive} {type Latines age:min 45 age:max + level {Dix danses}} ten

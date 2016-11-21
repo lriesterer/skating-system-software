@@ -1,0 +1,1315 @@
+event {
+    version 7
+	couples {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+	judges {A B C D E F G H I J}
+	panels {}
+	folders {folder1 folder2 folder3}
+    general:date {14 April 2001}
+    general:title {10 danses}
+
+	name:1 {Couple 1}
+	school:1 {Ecole 1}
+	name:2 {Couple 2}
+	school:2 {Ecole 2}
+	name:3 {Couple 3}
+	school:3 {Ecole 3}
+	name:4 {Couple 4}
+	school:4 {Ecole 4}
+	name:5 {Couple 5}
+	school:5 {Ecole 5}
+	name:6 {Couple 6}
+	school:6 {Ecole 6}
+	name:7 {Couple 7}
+	school:7 {Ecole 7}
+	name:8 {Couple 8}
+	school:8 {Ecole 8}
+	name:9 {Couple 9}
+	school:9 {Ecole 9}
+	name:10 {Couple 10}
+	school:10 {Ecole 10}
+	name:11 {Couple 11}
+	school:11 {Ecole 11}
+	name:12 {Couple 12}
+	school:12 {Ecole 12}
+	name:13 {Couple 13}
+	school:13 {Ecole 13}
+	name:14 {Couple 14}
+	school:14 {Ecole 14}
+	name:15 {Couple 15}
+	school:15 {Ecole 15}
+	name:16 {Couple 16}
+	school:16 {Ecole 16}
+	name:17 {Couple 17}
+	school:17 {Ecole 17}
+	name:18 {Couple 18}
+	school:18 {Ecole 18}
+	name:19 {Couple 19}
+	school:19 {Ecole 19}
+	name:20 {Couple 20}
+	school:20 {Ecole 20}
+	name:A {Juge A}
+	name:B {Juge B}
+	name:C {Juge C}
+	name:D {Juge D}
+	name:E {Juge E}
+	name:F {Juge F}
+	name:G {Juge G}
+	name:H {Juge H}
+	name:I {Juge I}
+	name:J {Juge J}
+}
+folder1 {
+	    label {Test dix danses (1)}
+	    mode ten
+	    dances {{Valse lente} Tango {Slow Foxtrot} Quickstep {Valse viennoise}}
+	}
+{folder1.Valse lente} {
+		    label {Test dix danses (1)}
+		    mode normal
+		    dances {{Valse lente}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E}
+dances:semi {{Valse lente}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E}
+dances:finale {{Valse lente}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10}
+couples:semi {1 2 3 4 5 6 7 8 9 10}
+{notes:semi:1:Valse lente} {1 1 1 1 1 }
+{notes:semi:2:Valse lente} {0 0 0 0 0 }
+{notes:semi:3:Valse lente} {0 0 0 0 0 }
+{notes:semi:4:Valse lente} {1 1 1 1 1 }
+{notes:semi:5:Valse lente} {1 1 1 1 1 }
+{notes:semi:6:Valse lente} {0 0 0 0 0 }
+{notes:semi:7:Valse lente} {0 0 0 0 0 }
+{notes:semi:8:Valse lente} {1 1 1 1 1 }
+{notes:semi:9:Valse lente} {1 1 1 1 1 }
+{notes:semi:10:Valse lente} {1 1 1 1 1 }
+couples:finale {1 4 5 8 9 10}
+{notes:finale:1:Valse lente} {4 5 3 6 1}
+{notes:finale:4:Valse lente} {3 2 4 3 6}
+{notes:finale:5:Valse lente} {6 4 1 1 4}
+{notes:finale:10:Valse lente} {1 6 6 5 5}
+{notes:finale:8:Valse lente} {5 1 2 2 2}
+{notes:finale:9:Valse lente} {2 3 5 4 3}
+}
+{folder1.Tango} {
+		    label {Test dix danses (1)}
+		    mode normal
+		    dances {{Tango}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E}
+dances:semi {{Tango}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E}
+dances:finale {{Tango}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10}
+couples:semi {1 2 3 4 5 6 7 8 9 10}
+{notes:semi:1:Tango} {1 1 1 1 1 }
+{notes:semi:2:Tango} {0 0 0 0 0 }
+{notes:semi:3:Tango} {1 1 1 1 1 }
+{notes:semi:4:Tango} {1 1 1 1 1 }
+{notes:semi:5:Tango} {1 1 1 1 1 }
+{notes:semi:6:Tango} {0 0 0 0 0 }
+{notes:semi:7:Tango} {1 1 1 1 1 }
+{notes:semi:8:Tango} {0 0 0 0 0 }
+{notes:semi:9:Tango} {0 0 0 0 0 }
+{notes:semi:10:Tango} {1 1 1 1 1 }
+couples:finale {1 3 4 5 7 10}
+{notes:finale:5:Tango} {3 5 3 5 6}
+{notes:finale:10:Tango} {1 3 6 6 3}
+{notes:finale:1:Tango} {4 2 2 4 2}
+{notes:finale:4:Tango} {6 4 5 3 4}
+{notes:finale:7:Tango} {2 1 4 1 5}
+{notes:finale:3:Tango} {5 6 1 2 1}
+}
+{folder1.Slow Foxtrot} {
+		    label {Test dix danses (1)}
+		    mode normal
+		    dances {{Slow Foxtrot}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E}
+dances:semi {{Slow Foxtrot}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E}
+dances:finale {{Slow Foxtrot}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10}
+couples:semi {1 2 3 4 5 6 7 8 9 10}
+{notes:semi:1:Slow Foxtrot} {0 0 0 0 0 }
+{notes:semi:2:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:3:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:4:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:5:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:6:Slow Foxtrot} {0 0 0 0 0 }
+{notes:semi:7:Slow Foxtrot} {0 0 0 0 0 }
+{notes:semi:8:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:9:Slow Foxtrot} {1 1 1 1 1 }
+{notes:semi:10:Slow Foxtrot} {0 0 0 0 0 }
+couples:finale {2 3 4 5 8 9}
+{notes:finale:8:Slow Foxtrot} {2 4 2 3 6}
+{notes:finale:5:Slow Foxtrot} {5 6 5 1 1}
+{notes:finale:2:Slow Foxtrot} {3 1 1 5 2}
+{notes:finale:3:Slow Foxtrot} {6 2 3 6 4}
+{notes:finale:4:Slow Foxtrot} {4 5 4 4 5}
+{notes:finale:9:Slow Foxtrot} {1 3 6 2 3}
+}
+{folder1.Quickstep} {
+		    label {Test dix danses (1)}
+		    mode normal
+		    dances {{Quickstep}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E}
+dances:semi {{Quickstep}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E}
+dances:finale {{Quickstep}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10}
+couples:semi {1 2 3 4 5 6 7 8 9 10}
+{notes:semi:1:Quickstep} {0 0 0 0 0 }
+{notes:semi:2:Quickstep} {0 0 0 0 0 }
+{notes:semi:3:Quickstep} {1 1 1 1 1 }
+{notes:semi:4:Quickstep} {1 1 1 1 1 }
+{notes:semi:5:Quickstep} {1 1 1 1 1 }
+{notes:semi:6:Quickstep} {1 1 1 1 1 }
+{notes:semi:7:Quickstep} {1 1 1 1 1 }
+{notes:semi:8:Quickstep} {0 0 0 0 0 }
+{notes:semi:9:Quickstep} {0 0 0 0 0 }
+{notes:semi:10:Quickstep} {1 1 1 1 1 }
+couples:finale {3 4 5 6 7 10}
+{notes:finale:6:Quickstep} {5 1 2 1 1}
+{notes:finale:7:Quickstep} {1 6 3 6 2}
+{notes:finale:4:Quickstep} {4 3 4 4 3}
+{notes:finale:10:Quickstep} {6 5 5 3 5}
+{notes:finale:3:Quickstep} {2 2 1 5 4}
+{notes:finale:5:Quickstep} {3 4 6 2 6}
+}
+{folder1.Valse viennoise} {
+		    label {Test dix danses (1)}
+		    mode normal
+		    dances {{Valse viennoise}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E}
+dances:semi {{Valse viennoise}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E}
+dances:finale {{Valse viennoise}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10}
+couples:semi {1 2 3 4 5 6 7 8 9 10}
+{notes:semi:1:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:2:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:3:Valse viennoise} {0 0 0 0 0 }
+{notes:semi:4:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:5:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:6:Valse viennoise} {0 0 0 0 0 }
+{notes:semi:7:Valse viennoise} {0 0 0 0 0 }
+{notes:semi:8:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:9:Valse viennoise} {1 1 1 1 1 }
+{notes:semi:10:Valse viennoise} {0 0 0 0 0 }
+couples:finale {1 2 4 5 8 9}
+{notes:finale:5:Valse viennoise} {1 6 6 4 5}
+{notes:finale:8:Valse viennoise} {6 1 1 5 3}
+{notes:finale:4:Valse viennoise} {2 5 5 3 2}
+{notes:finale:2:Valse viennoise} {5 3 3 2 6}
+{notes:finale:1:Valse viennoise} {3 4 2 1 1}
+{notes:finale:9:Valse viennoise} {4 2 4 6 4}
+}
+folder2 {
+	    label {Test dix danses (2)}
+	    mode ten
+	    dances {{Valse lente} Tango {Slow Foxtrot} Quickstep {Valse viennoise} {Cha Cha} Samba Rumba {Paso Doble} Jive}
+	}
+{folder2.Valse lente} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Valse lente}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Valse lente}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Valse lente}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Valse lente}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Valse lente} {0 0 0 }
+{notes:quarter:2:Valse lente} {1 1 1 }
+{notes:quarter:3:Valse lente} {1 1 1 }
+{notes:quarter:4:Valse lente} {1 1 1 }
+{notes:quarter:5:Valse lente} {0 0 0 }
+{notes:quarter:6:Valse lente} {0 0 0 }
+{notes:quarter:7:Valse lente} {1 1 1 }
+{notes:quarter:8:Valse lente} {1 1 1 }
+{notes:quarter:9:Valse lente} {0 0 0 }
+{notes:quarter:10:Valse lente} {0 0 0 }
+{notes:quarter:11:Valse lente} {1 1 1 }
+{notes:quarter:12:Valse lente} {1 1 1 }
+{notes:quarter:13:Valse lente} {0 0 0 }
+{notes:quarter:14:Valse lente} {1 1 1 }
+{notes:quarter:15:Valse lente} {0 0 0 }
+{notes:quarter:16:Valse lente} {1 1 1 }
+{notes:quarter:17:Valse lente} {1 1 1 }
+{notes:quarter:18:Valse lente} {0 0 0 }
+{notes:quarter:19:Valse lente} {1 1 1 }
+{notes:quarter:20:Valse lente} {1 1 1 }
+couples:semi {2 3 4 7 8 11 12 14 16 17 19 20}
+{notes:semi:16:Valse lente} {1 1 1 }
+{notes:semi:20:Valse lente} {0 0 0 }
+{notes:semi:11:Valse lente} {0 0 0 }
+{notes:semi:14:Valse lente} {1 1 1 }
+{notes:semi:12:Valse lente} {0 0 0 }
+{notes:semi:8:Valse lente} {1 1 1 }
+{notes:semi:2:Valse lente} {0 0 0 }
+{notes:semi:19:Valse lente} {0 0 0 }
+{notes:semi:4:Valse lente} {0 0 0 }
+{notes:semi:17:Valse lente} {1 1 1 }
+{notes:semi:7:Valse lente} {1 1 1 }
+{notes:semi:3:Valse lente} {1 1 1 }
+couples:finale {3 7 8 14 16 17}
+{notes:finale:14:Valse lente} {2 6 5}
+{notes:finale:7:Valse lente} {6 5 6}
+{notes:finale:16:Valse lente} {4 3 3}
+{notes:finale:17:Valse lente} {5 1 4}
+{notes:finale:3:Valse lente} {1 4 1}
+{notes:finale:8:Valse lente} {3 2 2}
+}
+{folder2.Tango} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Tango}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Tango}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Tango}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Tango}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Tango} {1 1 1 }
+{notes:quarter:2:Tango} {0 0 0 }
+{notes:quarter:3:Tango} {1 1 1 }
+{notes:quarter:4:Tango} {1 1 1 }
+{notes:quarter:5:Tango} {1 1 1 }
+{notes:quarter:6:Tango} {1 1 1 }
+{notes:quarter:7:Tango} {0 0 0 }
+{notes:quarter:8:Tango} {0 0 0 }
+{notes:quarter:9:Tango} {0 0 0 }
+{notes:quarter:10:Tango} {1 1 1 }
+{notes:quarter:11:Tango} {0 0 0 }
+{notes:quarter:12:Tango} {0 0 0 }
+{notes:quarter:13:Tango} {1 1 1 }
+{notes:quarter:14:Tango} {1 1 1 }
+{notes:quarter:15:Tango} {1 1 1 }
+{notes:quarter:16:Tango} {1 1 1 }
+{notes:quarter:17:Tango} {1 1 1 }
+{notes:quarter:18:Tango} {1 1 1 }
+{notes:quarter:19:Tango} {0 0 0 }
+{notes:quarter:20:Tango} {0 0 0 }
+couples:semi {1 3 4 5 6 10 13 14 15 16 17 18}
+{notes:semi:16:Tango} {0 0 0 }
+{notes:semi:17:Tango} {1 1 1 }
+{notes:semi:5:Tango} {0 0 0 }
+{notes:semi:1:Tango} {1 1 1 }
+{notes:semi:13:Tango} {0 0 0 }
+{notes:semi:15:Tango} {0 0 0 }
+{notes:semi:18:Tango} {1 1 1 }
+{notes:semi:14:Tango} {1 1 1 }
+{notes:semi:10:Tango} {1 1 1 }
+{notes:semi:4:Tango} {0 0 0 }
+{notes:semi:6:Tango} {0 0 0 }
+{notes:semi:3:Tango} {1 1 1 }
+couples:finale {1 3 10 14 17 18}
+{notes:finale:1:Tango} {3 4 1}
+{notes:finale:14:Tango} {6 6 5}
+{notes:finale:10:Tango} {2 2 4}
+{notes:finale:3:Tango} {4 3 3}
+{notes:finale:18:Tango} {1 1 2}
+{notes:finale:17:Tango} {5 5 6}
+}
+{folder2.Slow Foxtrot} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Slow Foxtrot}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Slow Foxtrot}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Slow Foxtrot}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Slow Foxtrot}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Slow Foxtrot} {1 1 1 }
+{notes:quarter:2:Slow Foxtrot} {1 1 1 }
+{notes:quarter:3:Slow Foxtrot} {0 0 0 }
+{notes:quarter:4:Slow Foxtrot} {1 1 1 }
+{notes:quarter:5:Slow Foxtrot} {1 1 1 }
+{notes:quarter:6:Slow Foxtrot} {0 0 0 }
+{notes:quarter:7:Slow Foxtrot} {0 0 0 }
+{notes:quarter:8:Slow Foxtrot} {1 1 1 }
+{notes:quarter:9:Slow Foxtrot} {1 1 1 }
+{notes:quarter:10:Slow Foxtrot} {1 1 1 }
+{notes:quarter:11:Slow Foxtrot} {1 1 1 }
+{notes:quarter:12:Slow Foxtrot} {1 1 1 }
+{notes:quarter:13:Slow Foxtrot} {0 0 0 }
+{notes:quarter:14:Slow Foxtrot} {1 1 1 }
+{notes:quarter:15:Slow Foxtrot} {1 1 1 }
+{notes:quarter:16:Slow Foxtrot} {0 0 0 }
+{notes:quarter:17:Slow Foxtrot} {0 0 0 }
+{notes:quarter:18:Slow Foxtrot} {1 1 1 }
+{notes:quarter:19:Slow Foxtrot} {0 0 0 }
+{notes:quarter:20:Slow Foxtrot} {0 0 0 }
+couples:semi {1 2 4 5 8 9 10 11 12 14 15 18}
+{notes:semi:4:Slow Foxtrot} {1 1 1 }
+{notes:semi:14:Slow Foxtrot} {0 0 0 }
+{notes:semi:1:Slow Foxtrot} {0 0 0 }
+{notes:semi:18:Slow Foxtrot} {1 1 1 }
+{notes:semi:15:Slow Foxtrot} {0 0 0 }
+{notes:semi:8:Slow Foxtrot} {1 1 1 }
+{notes:semi:12:Slow Foxtrot} {1 1 1 }
+{notes:semi:9:Slow Foxtrot} {1 1 1 }
+{notes:semi:2:Slow Foxtrot} {0 0 0 }
+{notes:semi:11:Slow Foxtrot} {1 1 1 }
+{notes:semi:5:Slow Foxtrot} {0 0 0 }
+{notes:semi:10:Slow Foxtrot} {0 0 0 }
+couples:finale {4 8 9 11 12 18}
+{notes:finale:11:Slow Foxtrot} {1 5 3}
+{notes:finale:12:Slow Foxtrot} {4 4 6}
+{notes:finale:4:Slow Foxtrot} {6 3 5}
+{notes:finale:18:Slow Foxtrot} {5 2 1}
+{notes:finale:8:Slow Foxtrot} {2 6 4}
+{notes:finale:9:Slow Foxtrot} {3 1 2}
+}
+{folder2.Quickstep} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Quickstep}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Quickstep}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Quickstep}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Quickstep}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Quickstep} {0 0 0 }
+{notes:quarter:2:Quickstep} {1 1 1 }
+{notes:quarter:3:Quickstep} {1 1 1 }
+{notes:quarter:4:Quickstep} {1 1 1 }
+{notes:quarter:5:Quickstep} {1 1 1 }
+{notes:quarter:6:Quickstep} {0 0 0 }
+{notes:quarter:7:Quickstep} {0 0 0 }
+{notes:quarter:8:Quickstep} {1 1 1 }
+{notes:quarter:9:Quickstep} {1 1 1 }
+{notes:quarter:10:Quickstep} {1 1 1 }
+{notes:quarter:11:Quickstep} {0 0 0 }
+{notes:quarter:12:Quickstep} {0 0 0 }
+{notes:quarter:13:Quickstep} {0 0 0 }
+{notes:quarter:14:Quickstep} {1 1 1 }
+{notes:quarter:15:Quickstep} {0 0 0 }
+{notes:quarter:16:Quickstep} {1 1 1 }
+{notes:quarter:17:Quickstep} {1 1 1 }
+{notes:quarter:18:Quickstep} {0 0 0 }
+{notes:quarter:19:Quickstep} {1 1 1 }
+{notes:quarter:20:Quickstep} {1 1 1 }
+couples:semi {2 3 4 5 8 9 10 14 16 17 19 20}
+{notes:semi:16:Quickstep} {0 0 0 }
+{notes:semi:4:Quickstep} {0 0 0 }
+{notes:semi:3:Quickstep} {1 1 1 }
+{notes:semi:20:Quickstep} {0 0 0 }
+{notes:semi:9:Quickstep} {0 0 0 }
+{notes:semi:8:Quickstep} {1 1 1 }
+{notes:semi:2:Quickstep} {0 0 0 }
+{notes:semi:10:Quickstep} {1 1 1 }
+{notes:semi:5:Quickstep} {1 1 1 }
+{notes:semi:14:Quickstep} {1 1 1 }
+{notes:semi:17:Quickstep} {0 0 0 }
+{notes:semi:19:Quickstep} {1 1 1 }
+couples:finale {3 5 8 10 14 19}
+{notes:finale:14:Quickstep} {2 6 5}
+{notes:finale:10:Quickstep} {4 3 4}
+{notes:finale:5:Quickstep} {6 4 1}
+{notes:finale:8:Quickstep} {3 2 6}
+{notes:finale:19:Quickstep} {5 5 3}
+{notes:finale:3:Quickstep} {1 1 2}
+}
+{folder2.Valse viennoise} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Valse viennoise}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Valse viennoise}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Valse viennoise}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Valse viennoise}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Valse viennoise} {0 0 0 }
+{notes:quarter:2:Valse viennoise} {0 0 0 }
+{notes:quarter:3:Valse viennoise} {1 1 1 }
+{notes:quarter:4:Valse viennoise} {1 1 1 }
+{notes:quarter:5:Valse viennoise} {1 1 1 }
+{notes:quarter:6:Valse viennoise} {1 1 1 }
+{notes:quarter:7:Valse viennoise} {1 1 1 }
+{notes:quarter:8:Valse viennoise} {1 1 1 }
+{notes:quarter:9:Valse viennoise} {0 0 0 }
+{notes:quarter:10:Valse viennoise} {0 0 0 }
+{notes:quarter:11:Valse viennoise} {0 0 0 }
+{notes:quarter:12:Valse viennoise} {0 0 0 }
+{notes:quarter:13:Valse viennoise} {1 1 1 }
+{notes:quarter:14:Valse viennoise} {1 1 1 }
+{notes:quarter:15:Valse viennoise} {0 0 0 }
+{notes:quarter:16:Valse viennoise} {1 1 1 }
+{notes:quarter:17:Valse viennoise} {1 1 1 }
+{notes:quarter:18:Valse viennoise} {1 1 1 }
+{notes:quarter:19:Valse viennoise} {1 1 1 }
+{notes:quarter:20:Valse viennoise} {0 0 0 }
+couples:semi {3 4 5 6 7 8 13 14 16 17 18 19}
+{notes:semi:7:Valse viennoise} {1 1 1 }
+{notes:semi:17:Valse viennoise} {0 0 0 }
+{notes:semi:18:Valse viennoise} {0 0 0 }
+{notes:semi:6:Valse viennoise} {1 1 1 }
+{notes:semi:3:Valse viennoise} {0 0 0 }
+{notes:semi:4:Valse viennoise} {1 1 1 }
+{notes:semi:16:Valse viennoise} {0 0 0 }
+{notes:semi:14:Valse viennoise} {0 0 0 }
+{notes:semi:19:Valse viennoise} {1 1 1 }
+{notes:semi:5:Valse viennoise} {1 1 1 }
+{notes:semi:13:Valse viennoise} {0 0 0 }
+{notes:semi:8:Valse viennoise} {1 1 1 }
+couples:finale {4 5 6 7 8 19}
+{notes:finale:7:Valse viennoise} {5 6 1}
+{notes:finale:4:Valse viennoise} {4 4 5}
+{notes:finale:6:Valse viennoise} {6 2 2}
+{notes:finale:8:Valse viennoise} {3 1 3}
+{notes:finale:19:Valse viennoise} {2 3 6}
+{notes:finale:5:Valse viennoise} {1 5 4}
+}
+{folder2.Cha Cha} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Cha Cha}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Cha Cha}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Cha Cha}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Cha Cha}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Cha Cha} {1 1 1 }
+{notes:quarter:2:Cha Cha} {0 0 0 }
+{notes:quarter:3:Cha Cha} {1 1 1 }
+{notes:quarter:4:Cha Cha} {0 0 0 }
+{notes:quarter:5:Cha Cha} {0 0 0 }
+{notes:quarter:6:Cha Cha} {0 0 0 }
+{notes:quarter:7:Cha Cha} {1 1 1 }
+{notes:quarter:8:Cha Cha} {1 1 1 }
+{notes:quarter:9:Cha Cha} {1 1 1 }
+{notes:quarter:10:Cha Cha} {1 1 1 }
+{notes:quarter:11:Cha Cha} {1 1 1 }
+{notes:quarter:12:Cha Cha} {0 0 0 }
+{notes:quarter:13:Cha Cha} {1 1 1 }
+{notes:quarter:14:Cha Cha} {0 0 0 }
+{notes:quarter:15:Cha Cha} {0 0 0 }
+{notes:quarter:16:Cha Cha} {0 0 0 }
+{notes:quarter:17:Cha Cha} {1 1 1 }
+{notes:quarter:18:Cha Cha} {1 1 1 }
+{notes:quarter:19:Cha Cha} {1 1 1 }
+{notes:quarter:20:Cha Cha} {1 1 1 }
+couples:semi {1 3 7 8 9 10 11 13 17 18 19 20}
+{notes:semi:11:Cha Cha} {1 1 1 }
+{notes:semi:20:Cha Cha} {0 0 0 }
+{notes:semi:3:Cha Cha} {0 0 0 }
+{notes:semi:17:Cha Cha} {1 1 1 }
+{notes:semi:10:Cha Cha} {0 0 0 }
+{notes:semi:19:Cha Cha} {1 1 1 }
+{notes:semi:18:Cha Cha} {1 1 1 }
+{notes:semi:9:Cha Cha} {0 0 0 }
+{notes:semi:8:Cha Cha} {0 0 0 }
+{notes:semi:13:Cha Cha} {1 1 1 }
+{notes:semi:7:Cha Cha} {1 1 1 }
+{notes:semi:1:Cha Cha} {0 0 0 }
+couples:finale {7 11 13 17 18 19}
+{notes:finale:13:Cha Cha} {4 1 3}
+{notes:finale:17:Cha Cha} {5 4 6}
+{notes:finale:7:Cha Cha} {2 5 1}
+{notes:finale:18:Cha Cha} {3 3 2}
+{notes:finale:19:Cha Cha} {6 6 5}
+{notes:finale:11:Cha Cha} {1 2 4}
+}
+{folder2.Samba} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Samba}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Samba}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Samba}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Samba}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Samba} {1 1 1 }
+{notes:quarter:2:Samba} {1 1 1 }
+{notes:quarter:3:Samba} {1 1 1 }
+{notes:quarter:4:Samba} {1 1 1 }
+{notes:quarter:5:Samba} {0 0 0 }
+{notes:quarter:6:Samba} {1 1 1 }
+{notes:quarter:7:Samba} {1 1 1 }
+{notes:quarter:8:Samba} {0 0 0 }
+{notes:quarter:9:Samba} {1 1 1 }
+{notes:quarter:10:Samba} {1 1 1 }
+{notes:quarter:11:Samba} {1 1 1 }
+{notes:quarter:12:Samba} {0 0 0 }
+{notes:quarter:13:Samba} {0 0 0 }
+{notes:quarter:14:Samba} {1 1 1 }
+{notes:quarter:15:Samba} {0 0 0 }
+{notes:quarter:16:Samba} {0 0 0 }
+{notes:quarter:17:Samba} {0 0 0 }
+{notes:quarter:18:Samba} {1 1 1 }
+{notes:quarter:19:Samba} {0 0 0 }
+{notes:quarter:20:Samba} {1 1 1 }
+couples:semi {1 2 3 4 6 7 9 10 11 14 18 20}
+{notes:semi:1:Samba} {0 0 0 }
+{notes:semi:11:Samba} {1 1 1 }
+{notes:semi:6:Samba} {1 1 1 }
+{notes:semi:3:Samba} {0 0 0 }
+{notes:semi:20:Samba} {0 0 0 }
+{notes:semi:4:Samba} {1 1 1 }
+{notes:semi:14:Samba} {1 1 1 }
+{notes:semi:2:Samba} {0 0 0 }
+{notes:semi:18:Samba} {1 1 1 }
+{notes:semi:10:Samba} {0 0 0 }
+{notes:semi:9:Samba} {1 1 1 }
+{notes:semi:7:Samba} {0 0 0 }
+couples:finale {4 6 9 11 14 18}
+{notes:finale:9:Samba} {2 6 5}
+{notes:finale:11:Samba} {5 5 4}
+{notes:finale:6:Samba} {3 3 6}
+{notes:finale:14:Samba} {4 2 3}
+{notes:finale:4:Samba} {1 4 1}
+{notes:finale:18:Samba} {6 1 2}
+}
+{folder2.Rumba} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Rumba}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Rumba}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Rumba}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Rumba}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Rumba} {0 0 0 }
+{notes:quarter:2:Rumba} {0 0 0 }
+{notes:quarter:3:Rumba} {0 0 0 }
+{notes:quarter:4:Rumba} {1 1 1 }
+{notes:quarter:5:Rumba} {1 1 1 }
+{notes:quarter:6:Rumba} {1 1 1 }
+{notes:quarter:7:Rumba} {1 1 1 }
+{notes:quarter:8:Rumba} {1 1 1 }
+{notes:quarter:9:Rumba} {1 1 1 }
+{notes:quarter:10:Rumba} {1 1 1 }
+{notes:quarter:11:Rumba} {1 1 1 }
+{notes:quarter:12:Rumba} {0 0 0 }
+{notes:quarter:13:Rumba} {1 1 1 }
+{notes:quarter:14:Rumba} {1 1 1 }
+{notes:quarter:15:Rumba} {0 0 0 }
+{notes:quarter:16:Rumba} {0 0 0 }
+{notes:quarter:17:Rumba} {0 0 0 }
+{notes:quarter:18:Rumba} {1 1 1 }
+{notes:quarter:19:Rumba} {0 0 0 }
+{notes:quarter:20:Rumba} {1 1 1 }
+couples:semi {4 5 6 7 8 9 10 11 13 14 18 20}
+{notes:semi:20:Rumba} {1 1 1 }
+{notes:semi:8:Rumba} {0 0 0 }
+{notes:semi:10:Rumba} {1 1 1 }
+{notes:semi:4:Rumba} {1 1 1 }
+{notes:semi:7:Rumba} {0 0 0 }
+{notes:semi:13:Rumba} {0 0 0 }
+{notes:semi:6:Rumba} {1 1 1 }
+{notes:semi:18:Rumba} {0 0 0 }
+{notes:semi:11:Rumba} {1 1 1 }
+{notes:semi:5:Rumba} {1 1 1 }
+{notes:semi:14:Rumba} {0 0 0 }
+{notes:semi:9:Rumba} {0 0 0 }
+couples:finale {4 5 6 10 11 20}
+{notes:finale:11:Rumba} {5 5 6}
+{notes:finale:20:Rumba} {4 1 1}
+{notes:finale:10:Rumba} {1 6 5}
+{notes:finale:6:Rumba} {2 2 2}
+{notes:finale:4:Rumba} {6 4 4}
+{notes:finale:5:Rumba} {3 3 3}
+}
+{folder2.Paso Doble} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Paso Doble}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Paso Doble}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Paso Doble}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Paso Doble}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Paso Doble} {0 0 0 }
+{notes:quarter:2:Paso Doble} {1 1 1 }
+{notes:quarter:3:Paso Doble} {0 0 0 }
+{notes:quarter:4:Paso Doble} {1 1 1 }
+{notes:quarter:5:Paso Doble} {1 1 1 }
+{notes:quarter:6:Paso Doble} {1 1 1 }
+{notes:quarter:7:Paso Doble} {0 0 0 }
+{notes:quarter:8:Paso Doble} {1 1 1 }
+{notes:quarter:9:Paso Doble} {1 1 1 }
+{notes:quarter:10:Paso Doble} {0 0 0 }
+{notes:quarter:11:Paso Doble} {1 1 1 }
+{notes:quarter:12:Paso Doble} {1 1 1 }
+{notes:quarter:13:Paso Doble} {0 0 0 }
+{notes:quarter:14:Paso Doble} {1 1 1 }
+{notes:quarter:15:Paso Doble} {0 0 0 }
+{notes:quarter:16:Paso Doble} {1 1 1 }
+{notes:quarter:17:Paso Doble} {1 1 1 }
+{notes:quarter:18:Paso Doble} {0 0 0 }
+{notes:quarter:19:Paso Doble} {1 1 1 }
+{notes:quarter:20:Paso Doble} {0 0 0 }
+couples:semi {2 4 5 6 8 9 11 12 14 16 17 19}
+{notes:semi:9:Paso Doble} {0 0 0 }
+{notes:semi:4:Paso Doble} {0 0 0 }
+{notes:semi:19:Paso Doble} {1 1 1 }
+{notes:semi:12:Paso Doble} {0 0 0 }
+{notes:semi:6:Paso Doble} {1 1 1 }
+{notes:semi:2:Paso Doble} {0 0 0 }
+{notes:semi:11:Paso Doble} {0 0 0 }
+{notes:semi:8:Paso Doble} {1 1 1 }
+{notes:semi:17:Paso Doble} {0 0 0 }
+{notes:semi:14:Paso Doble} {1 1 1 }
+{notes:semi:16:Paso Doble} {1 1 1 }
+{notes:semi:5:Paso Doble} {1 1 1 }
+couples:finale {5 6 8 14 16 19}
+{notes:finale:5:Paso Doble} {2 3 3}
+{notes:finale:16:Paso Doble} {3 6 6}
+{notes:finale:8:Paso Doble} {4 2 5}
+{notes:finale:19:Paso Doble} {5 5 4}
+{notes:finale:14:Paso Doble} {6 4 2}
+{notes:finale:6:Paso Doble} {1 1 1}
+}
+{folder2.Jive} {
+		    label {Test dix danses (2)}
+		    mode normal
+		    dances {{Jive}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:quarter:use 1
+round:quarter:nb 12
+round:quarter.2:nb 0
+judges:quarter {A B C}
+dances:quarter {{Jive}}
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C}
+dances:semi {{Jive}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C}
+dances:finale {{Jive}}
+levels {quarter semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+couples:quarter {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20}
+{notes:quarter:1:Jive} {0 0 0 }
+{notes:quarter:2:Jive} {1 1 1 }
+{notes:quarter:3:Jive} {0 0 0 }
+{notes:quarter:4:Jive} {0 0 0 }
+{notes:quarter:5:Jive} {1 1 1 }
+{notes:quarter:6:Jive} {1 1 1 }
+{notes:quarter:7:Jive} {0 0 0 }
+{notes:quarter:8:Jive} {1 1 1 }
+{notes:quarter:9:Jive} {1 1 1 }
+{notes:quarter:10:Jive} {0 0 0 }
+{notes:quarter:11:Jive} {1 1 1 }
+{notes:quarter:12:Jive} {1 1 1 }
+{notes:quarter:13:Jive} {1 1 1 }
+{notes:quarter:14:Jive} {0 0 0 }
+{notes:quarter:15:Jive} {0 0 0 }
+{notes:quarter:16:Jive} {0 0 0 }
+{notes:quarter:17:Jive} {1 1 1 }
+{notes:quarter:18:Jive} {1 1 1 }
+{notes:quarter:19:Jive} {1 1 1 }
+{notes:quarter:20:Jive} {1 1 1 }
+couples:semi {2 5 6 8 9 11 12 13 17 18 19 20}
+{notes:semi:8:Jive} {0 0 0 }
+{notes:semi:6:Jive} {0 0 0 }
+{notes:semi:18:Jive} {1 1 1 }
+{notes:semi:13:Jive} {1 1 1 }
+{notes:semi:20:Jive} {1 1 1 }
+{notes:semi:9:Jive} {0 0 0 }
+{notes:semi:19:Jive} {0 0 0 }
+{notes:semi:2:Jive} {1 1 1 }
+{notes:semi:5:Jive} {1 1 1 }
+{notes:semi:12:Jive} {1 1 1 }
+{notes:semi:17:Jive} {0 0 0 }
+{notes:semi:11:Jive} {0 0 0 }
+couples:finale {2 5 12 13 18 20}
+{notes:finale:2:Jive} {3 4 1}
+{notes:finale:12:Jive} {4 6 3}
+{notes:finale:20:Jive} {6 1 5}
+{notes:finale:5:Jive} {2 3 6}
+{notes:finale:18:Jive} {5 5 4}
+{notes:finale:13:Jive} {1 2 2}
+}
+folder3 {
+	    label {Test dix danses (3)}
+	    mode ten
+	    dances {{Valse lente} Tango {Slow Foxtrot}}
+	}
+{folder3.Valse lente} {
+		    label {Test dix danses (3)}
+		    mode normal
+		    dances {{Valse lente}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E F G H I J}
+dances:semi {{Valse lente}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E F G H I J}
+dances:finale {{Valse lente}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12}
+couples:semi {1 2 3 4 5 6 7 8 9 10 11 12}
+{notes:semi:1:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:2:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:3:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:4:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:5:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:6:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:7:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:8:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:9:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:10:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:11:Valse lente} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:12:Valse lente} {1 1 1 1 1 1 1 1 1 1 }
+couples:finale {1 3 7 9 10 12}
+{notes:finale:9:Valse lente} {3 4 6 1 4 4 6 2 3 5}
+{notes:finale:7:Valse lente} {6 2 3 3 6 6 2 5 1 1}
+{notes:finale:3:Valse lente} {5 6 1 6 1 3 3 3 5 2}
+{notes:finale:12:Valse lente} {2 3 2 2 5 1 4 1 4 3}
+{notes:finale:1:Valse lente} {1 1 5 4 2 2 5 6 2 4}
+{notes:finale:10:Valse lente} {4 5 4 5 3 5 1 4 6 6}
+}
+{folder3.Tango} {
+		    label {Test dix danses (3)}
+		    mode normal
+		    dances {{Tango}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E F G H I J}
+dances:semi {{Tango}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E F G H I J}
+dances:finale {{Tango}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12}
+couples:semi {1 2 3 4 5 6 7 8 9 10 11 12}
+{notes:semi:1:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:2:Tango} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:3:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:4:Tango} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:5:Tango} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:6:Tango} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:7:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:8:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:9:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:10:Tango} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:11:Tango} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:12:Tango} {0 0 0 0 0 0 0 0 0 0 }
+couples:finale {1 3 7 8 9 11}
+{notes:finale:3:Tango} {4 5 3 1 5 1 2 3 5 3}
+{notes:finale:9:Tango} {6 3 4 5 4 6 6 5 6 4}
+{notes:finale:7:Tango} {3 1 6 4 3 4 4 2 2 2}
+{notes:finale:8:Tango} {5 4 2 3 6 3 3 6 4 1}
+{notes:finale:1:Tango} {1 6 5 2 2 2 1 1 3 6}
+{notes:finale:11:Tango} {2 2 1 6 1 5 5 4 1 5}
+}
+{folder3.Slow Foxtrot} {
+		    label {Test dix danses (3)}
+		    mode normal
+		    dances {{Slow Foxtrot}}
+			round:generation auto
+			round:explicitNames 1
+round:128:name {1/128 Finale}
+round:128:split 0
+round:64:name {1/64 Finale}
+round:64:split 0
+round:32:name {1/32 Finale}
+round:32:split 0
+round:16:name {1/16 Finale}
+round:16:split 0
+round:eight:name {1/8 Finale}
+round:eight:split 0
+round:quarter:name {1/4 Finale}
+round:quarter:split 0
+round:semi:name {1/2 Finale}
+round:semi:split 0
+round:semi:use 1
+round:semi:nb 6
+round:semi.2:nb 0
+judges:semi {A B C D E F G H I J}
+dances:semi {{Slow Foxtrot}}
+round:finale:name {Finale}
+round:finale:split 0
+round:finale:use 1
+round:finale:nb 0
+round:finale.2:nb 0
+judges:finale {A B C D E F G H I J}
+dances:finale {{Slow Foxtrot}}
+levels {semi finale}
+couples:all {1 2 3 4 5 6 7 8 9 10 11 12}
+couples:semi {1 2 3 4 5 6 7 8 9 10 11 12}
+{notes:semi:1:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:2:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:3:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:4:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:5:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:6:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:7:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:8:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:9:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+{notes:semi:10:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:11:Slow Foxtrot} {0 0 0 0 0 0 0 0 0 0 }
+{notes:semi:12:Slow Foxtrot} {1 1 1 1 1 1 1 1 1 1 }
+couples:finale {1 6 7 8 9 12}
+{notes:finale:7:Slow Foxtrot} {6 3 1 3 1 6 1 5 5 6}
+{notes:finale:9:Slow Foxtrot} {2 1 4 6 2 4 5 1 3 2}
+{notes:finale:6:Slow Foxtrot} {5 4 5 2 6 3 6 2 4 4}
+{notes:finale:1:Slow Foxtrot} {1 5 2 5 5 1 2 4 1 3}
+{notes:finale:8:Slow Foxtrot} {4 2 3 1 3 2 3 6 2 5}
+{notes:finale:12:Slow Foxtrot} {3 6 6 4 4 5 4 3 6 1}
+}

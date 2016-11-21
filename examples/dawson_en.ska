@@ -1,0 +1,628 @@
+event {
+    couples { 10 11 12 13 14 15 16 17 18 19 
+					20 21 22 23 24 25 26 27 28 29
+					30 31 32 33 34 35 36 37 38 39
+					40 41 42 43 44 45 46 47 48 49
+					50 51 52 53 54 55 56 57 58 59
+					60 61 62 63 64 65 66 67 68 69
+					70 71 72 73 74 75 76 77 78 79 }
+    judges { A B C D E F G H J K L M }
+    folders { folder1 folder2 folder3 folder4 folder5
+				  folder6 folder7 folder8 folder9 folder10
+				  folder11 folder12 folder13 folder14
+				  folder15 folder16 folder17 }
+
+    name:10 {Smith 10}
+    school:10 {School 1}
+    name:11 {Smith 11}
+    school:11 {School 1}
+    name:12 {Smith 12}
+    school:12 {School 1}
+    name:13 {Smith 13}
+    school:13 {School 1}
+    name:14 {Smith 14}
+    school:14 {School 1}
+    name:15 {Smith 15}
+    school:15 {School 1}
+    name:16 {Smith 16}
+    school:16 {School 1}
+    name:17 {Smith 17}
+    school:17 {School 1}
+    name:18 {Smith 18}
+    school:18 {School 1}
+    name:19 {Smith 19}
+    school:19 {School 1}
+    name:20 {Collins 20}
+    school:20 {School 2}
+    name:21 {Collins 21}
+    school:21 {School 2}
+    name:22 {Collins 22}
+    school:22 {School 2}
+    name:23 {Collins 23}
+    school:23 {School 2}
+    name:24 {Collins 24}
+    school:24 {School 2}
+    name:25 {Collins 25}
+    school:25 {School 2}
+    name:26 {Collins 26}
+    school:26 {School 2}
+    name:27 {Collins 27}
+    school:27 {School 2}
+    name:28 {Collins 28}
+    school:28 {School 2}
+    name:29 {Collins 29}
+    school:29 {School 2}
+    name:30 {Collins 30}
+    school:30 {School 3}
+    name:31 {Collins 31}
+    school:31 {School 3}
+    name:32 {Collins 32}
+    school:32 {School 3}
+    name:33 {Collins 33}
+    school:33 {School 3}
+    name:34 {Collins 34}
+    school:34 {School 3}
+    name:35 {Collins 35}
+    school:35 {School 3}
+    name:36 {Collins 36}
+    school:36 {School 3}
+    name:37 {Collins 37}
+    school:37 {School 3}
+    name:38 {Collins 38}
+    school:38 {School 3}
+    name:39 {Collins 39}
+    school:39 {School 3}
+    name:40 {King 40}
+    school:40 {School 4}
+    name:41 {King 41}
+    school:41 {School 4}
+    name:42 {King 42}
+    school:42 {School 4}
+    name:43 {King 43}
+    school:43 {School 4}
+    name:44 {King 44}
+    school:44 {School 4}
+    name:45 {King 45}
+    school:45 {School 4}
+    name:46 {King 46}
+    school:46 {School 4}
+    name:47 {King 47}
+    school:47 {School 4}
+    name:48 {King 48}
+    school:48 {School 4}
+    name:49 {King 49}
+    school:49 {School 4}
+    name:50 {King 50}
+    school:50 {School 5}
+    name:51 {King 51}
+    school:51 {School 5}
+    name:52 {King 52}
+    school:52 {School 5}
+    name:53 {King 53}
+    school:53 {School 5}
+    name:54 {King 54}
+    school:54 {School 5}
+    name:55 {King 55}
+    school:55 {School 5}
+    name:56 {King 56}
+    school:56 {School 5}
+    name:57 {King 57}
+    school:57 {School 5}
+    name:58 {King 58}
+    school:58 {School 5}
+    name:59 {King 59}
+    school:59 {School 5}
+    name:60 {Johnson 60}
+    school:60 {School 6}
+    name:61 {Johnson 61}
+    school:61 {School 6}
+    name:62 {Johnson 62}
+    school:62 {School 6}
+    name:63 {Johnson 63}
+    school:63 {School 6}
+    name:64 {Johnson 64}
+    school:64 {School 6}
+    name:65 {Johnson 65}
+    school:65 {School 6}
+    name:66 {Johnson 66}
+    school:66 {School 6}
+    name:67 {Johnson 67}
+    school:67 {School 6}
+    name:68 {Johnson 68}
+    school:68 {School 6}
+    name:69 {Johnson 69}
+    school:69 {School 6}
+    name:70 {Johnson 70}
+    school:70 {School 7}
+    name:71 {Johnson 71}
+    school:71 {School 7}
+    name:72 {Johnson 72}
+    school:72 {School 7}
+    name:73 {Johnson 73}
+    school:73 {School 7}
+    name:74 {Johnson 74}
+    school:74 {School 7}
+    name:75 {Johnson 75}
+    school:75 {School 7}
+    name:76 {Johnson 76}
+    school:76 {School 7}
+    name:77 {Johnson 77}
+    school:77 {School 7}
+    name:78 {Johnson 78}
+    school:78 {School 7}
+    name:79 {Johnson 79}
+    school:79 {School 7}
+    name:A {judge A}
+    name:B {judge B}
+    name:C {judge C}
+    name:D {judge D}
+    name:E {judge E}
+    name:F {judge F}
+    name:G {judge G}
+    name:H {judge H}
+    name:J {judge J}
+    name:K {judge K}
+    name:L {judge L}
+    name:M {judge M}
+
+    general:title {The "Skating System" by Arthur Dawson}
+    general:date {}
+    general:comment {Examples to learn how to use the scoring rules.
+Used to validate the program.}
+}
+
+
+folder1 {
+    label {Example A - Rule 5}
+    dances { "Waltz" }
+    judges { A B C D E }
+    couples:finale { 11 21 31 41 51 61 }
+    couples:all { 11 21 31 41 51 61 }
+    "notes:41:Waltz" { 4 4 2 3 4 }
+    "notes:51:Waltz" { 5 1 4 5 5 }
+    "notes:11:Waltz" { 1 5 1 1 2 }
+    "notes:61:Waltz" { 6 6 6 6 6 }
+    "notes:21:Waltz" { 2 2 5 4 1 }
+    "notes:31:Waltz" { 3 3 3 2 3 }
+}
+
+folder2 {
+    label {Example B - Rule 6}
+    dances { "Tango" }
+    judges { A B C D E }
+    couples:finale { 12 22 32 42 52 62 }
+    couples:all { 12 22 32 42 52 62 }
+    "notes:42:Tango" { 4 3 4 5 3 }
+    "notes:52:Tango" { 5 4 3 3 5 }
+    "notes:12:Tango" { 1 1 1 4 4 }
+    "notes:62:Tango" { 6 6 6 6 6 }
+    "notes:22:Tango" { 3 2 2 1 1 }
+    "notes:32:Tango" { 2 5 5 2 2 }
+}
+
+folder3 {
+    label {Example C - Rule 7(a)}
+    dances { "Viennese Waltz" }
+    judges { A B C D E }
+    couples:finale { 13 23 33 43 53 63 }
+    couples:all { 13 23 33 43 53 63 }
+    "notes:53:Viennese Waltz" { 4 4 3 3 3 }
+    "notes:13:Viennese Waltz" { 1 1 1 5 5 }
+    "notes:63:Viennese Waltz" { 6 6 6 4 6 }
+    "notes:23:Viennese Waltz" { 2 2 5 1 4 }
+    "notes:33:Viennese Waltz" { 5 5 2 2 2 }
+    "notes:43:Viennese Waltz" { 3 3 4 6 1 }
+}
+
+folder4 {
+    label {Example D - Rule 7(b)}
+    dances { "Foxtrot" }
+    judges { A B C D E }
+    couples:finale { 14 24 34 44 54 64 }
+    couples:all { 14 24 34 44 54 64 }
+    "notes:54:Foxtrot" { 4 4 3 6 4 }
+    "notes:14:Foxtrot" { 2 1 5 1 1 }
+    "notes:64:Foxtrot" { 6 5 6 4 3 }
+    "notes:24:Foxtrot" { 1 2 2 5 5 }
+    "notes:34:Foxtrot" { 5 6 1 2 2 }
+    "notes:44:Foxtrot" { 3 3 4 3 6 }
+}
+
+folder5 {
+    label {Example E - Rule (8)}
+    dances { "Quickstep" }
+    judges { A B C D E }
+    couples:finale { 15 25 35 45 55 65 }
+    couples:all { 15 25 35 45 55 65 }
+    "notes:55:Quickstep" { 5 6 2 3 4 }
+    "notes:15:Quickstep" { 1 1 3 2 3 }
+    "notes:65:Quickstep" { 3 3 6 4 6 }
+    "notes:25:Quickstep" { 6 5 4 1 1 }
+    "notes:35:Quickstep" { 2 4 1 5 5 }
+    "notes:45:Quickstep" { 4 2 5 6 2 }
+}
+
+folder6 {
+    label {Example F - Rule 9(a)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { F }
+    couples:finale { 16 26 36 46 56 66 }
+    couples:all { 16 26 36 46 56 66 }
+    "notes:36:Waltz" { 2 }
+    "notes:56:Quickstep" { 6 }
+    "notes:56:Tango" { 5 }
+    "notes:56:Waltz" { 5 }
+    "notes:26:Foxtrot" { 1 }
+    "notes:46:Foxtrot" { 4 }
+    "notes:26:Quickstep" { 4 }
+    "notes:26:Tango" { 1 }
+    "notes:66:Foxtrot" { 6 }
+    "notes:26:Waltz" { 3 }
+    "notes:46:Quickstep" { 1 }
+    "notes:46:Tango" { 4 }
+    "notes:46:Waltz" { 4 }
+    "notes:66:Quickstep" { 5 }
+    "notes:16:Foxtrot" { 2 }
+    "notes:66:Tango" { 6 }
+    "notes:66:Waltz" { 6 }
+    "notes:36:Foxtrot" { 3 }
+    "notes:16:Quickstep" { 2 }
+    "notes:16:Tango" { 2 }
+    "notes:56:Foxtrot" { 5 }
+    "notes:16:Waltz" { 1 }
+    "notes:36:Quickstep" { 3 }
+    "notes:36:Tango" { 3 }
+}
+
+folder7 {
+    label {Example G - Rules 10(a) and (d)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { G }
+    couples:finale { 17 27 37 47 57 67 }
+    couples:all { 17 27 37 47 57 67 }
+    "notes:37:Quickstep" { 4 }
+    "notes:37:Tango" { 5 }
+    "notes:37:Waltz" { 2 }
+    "notes:57:Quickstep" { 1 }
+    "notes:57:Tango" { 6 }
+    "notes:57:Waltz" { 6 }
+    "notes:27:Foxtrot" { 1 }
+    "notes:47:Foxtrot" { 3 }
+    "notes:27:Quickstep" { 2 }
+    "notes:27:Tango" { 3 }
+    "notes:67:Foxtrot" { 6 }
+    "notes:27:Waltz" { 3 }
+    "notes:47:Quickstep" { 6 }
+    "notes:47:Tango" { 2 }
+    "notes:47:Waltz" { 4 }
+    "notes:67:Quickstep" { 3 }
+    "notes:17:Foxtrot" { 2 }
+    "notes:67:Tango" { 4 }
+    "notes:67:Waltz" { 5 }
+    "notes:37:Foxtrot" { 4 }
+    "notes:17:Quickstep" { 5 }
+    "notes:17:Tango" { 1 }
+    "notes:57:Foxtrot" { 5 }
+    "notes:17:Waltz" { 1 }
+}
+
+folder8 {
+    label {Example H - Rules 10(b)(§1) and (d)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { H }
+    couples:finale { 18 28 38 48 58 68 }
+    couples:all { 18 28 38 48 58 68 }
+    "notes:58:Foxtrot" { 5 }
+    "notes:18:Waltz" { 3 }
+    "notes:38:Quickstep" { 3 }
+    "notes:38:Tango" { 3 }
+    "notes:38:Waltz" { 2 }
+    "notes:58:Quickstep" { 2 }
+    "notes:58:Tango" { 5 }
+    "notes:58:Waltz" { 5 }
+    "notes:28:Foxtrot" { 2 }
+    "notes:48:Foxtrot" { 4 }
+    "notes:28:Quickstep" { 6 }
+    "notes:28:Tango" { 2 }
+    "notes:68:Foxtrot" { 6 }
+    "notes:28:Waltz" { 1 }
+    "notes:48:Quickstep" { 5 }
+    "notes:48:Tango" { 4 }
+    "notes:48:Waltz" { 4 }
+    "notes:68:Quickstep" { 4 }
+    "notes:18:Foxtrot" { 1 }
+    "notes:68:Tango" { 6 }
+    "notes:68:Waltz" { 6 }
+    "notes:38:Foxtrot" { 3 }
+    "notes:18:Quickstep" { 1 }
+    "notes:18:Tango" { 1 }
+}
+
+folder9 {
+    label {Example J - Rules 10(b)(§2) and (d)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { J }
+    couples:finale { 19 29 39 49 59 69 }
+    couples:all { 19 29 39 49 59 69 }
+    "notes:19:Quickstep" { 1 }
+    "notes:19:Tango" { 1 }
+    "notes:59:Foxtrot" { 4 }
+    "notes:19:Waltz" { 2 }
+    "notes:39:Quickstep" { 2 }
+    "notes:39:Tango" { 3 }
+    "notes:39:Waltz" { 3 }
+    "notes:59:Quickstep" { 3 }
+    "notes:59:Tango" { 5 }
+    "notes:59:Waltz" { 6 }
+    "notes:29:Foxtrot" { 3 }
+    "notes:49:Foxtrot" { 5 }
+    "notes:29:Quickstep" { 4 }
+    "notes:29:Tango" { 2 }
+    "notes:69:Foxtrot" { 6 }
+    "notes:29:Waltz" { 1 }
+    "notes:49:Quickstep" { 5 }
+    "notes:49:Tango" { 4 }
+    "notes:49:Waltz" { 4 }
+    "notes:69:Quickstep" { 6 }
+    "notes:19:Foxtrot" { 1 }
+    "notes:69:Tango" { 6 }
+    "notes:69:Waltz" { 5 }
+    "notes:39:Foxtrot" { 2 }
+}
+
+folder10 {
+    label {Example K - Rule 10(c)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { K }
+    couples:finale { 20 30 40 50 60 70 }
+    couples:all { 20 30 40 50 60 70 }
+    "notes:20:Quickstep" { 4 }
+    "notes:20:Tango" { 2 }
+    "notes:60:Foxtrot" { 3 }
+    "notes:20:Waltz" { 2 }
+    "notes:40:Quickstep" { 3 }
+    "notes:40:Tango" { 3 }
+    "notes:40:Waltz" { 6 }
+    "notes:60:Quickstep" { 2 }
+    "notes:60:Tango" { 5 }
+    "notes:60:Waltz" { 3 }
+    "notes:30:Foxtrot" { 6 }
+    "notes:50:Foxtrot" { 4 }
+    "notes:30:Quickstep" { 5 }
+    "notes:30:Tango" { 1 }
+    "notes:70:Foxtrot" { 5 }
+    "notes:30:Waltz" { 1 }
+    "notes:50:Quickstep" { 1 }
+    "notes:50:Tango" { 4 }
+    "notes:50:Waltz" { 4 }
+    "notes:70:Quickstep" { 6 }
+    "notes:20:Foxtrot" { 2 }
+    "notes:70:Tango" { 6 }
+    "notes:70:Waltz" { 5 }
+    "notes:40:Foxtrot" { 1 }
+}
+
+folder11 {
+    label {Example L(1) - Rule 10(e1)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { L }
+    couples:finale { 21 31 41 51 61 71 }
+    couples:all { 21 31 41 51 61 71 }
+    "notes:41:Foxtrot" { 2 }
+    "notes:21:Quickstep" { 5 }
+    "notes:21:Tango" { 1 }
+    "notes:61:Foxtrot" { 6 }
+    "notes:21:Waltz" { 1 }
+    "notes:41:Quickstep" { 2 }
+    "notes:41:Tango" { 5 }
+    "notes:41:Waltz" { 2 }
+    "notes:61:Quickstep" { 4 }
+    "notes:61:Tango" { 2 }
+    "notes:61:Waltz" { 5 }
+    "notes:31:Foxtrot" { 1 }
+    "notes:51:Foxtrot" { 4 }
+    "notes:31:Quickstep" { 1 }
+    "notes:31:Tango" { 4 }
+    "notes:71:Foxtrot" { 5 }
+    "notes:31:Waltz" { 4 }
+    "notes:51:Quickstep" { 3 }
+    "notes:51:Tango" { 6 }
+    "notes:51:Waltz" { 3 }
+    "notes:71:Quickstep" { 6 }
+    "notes:21:Foxtrot" { 3 }
+    "notes:71:Tango" { 3 }
+    "notes:71:Waltz" { 6 }
+}
+
+folder12 {
+    label {Example L(2) - Rule 10(e2)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { L }
+    couples:finale { 22 32 42 52 62 72 }
+    couples:all { 22 32 42 52 62 72 }
+    "notes:72:Waltz" { 6 }
+    "notes:42:Foxtrot" { 3 }
+    "notes:22:Quickstep" { 2 }
+    "notes:22:Tango" { 5 }
+    "notes:62:Foxtrot" { 1 }
+    "notes:22:Waltz" { 3 }
+    "notes:42:Quickstep" { 3 }
+    "notes:42:Tango" { 6 }
+    "notes:42:Waltz" { 1 }
+    "notes:62:Quickstep" { 6 }
+    "notes:62:Tango" { 3 }
+    "notes:62:Waltz" { 5 }
+    "notes:32:Foxtrot" { 4 }
+    "notes:52:Foxtrot" { 5 }
+    "notes:32:Quickstep" { 4 }
+    "notes:32:Tango" { 2 }
+    "notes:72:Foxtrot" { 6 }
+    "notes:32:Waltz" { 2 }
+    "notes:52:Quickstep" { 1 }
+    "notes:52:Tango" { 4 }
+    "notes:52:Waltz" { 4 }
+    "notes:72:Quickstep" { 5 }
+    "notes:22:Foxtrot" { 2 }
+    "notes:72:Tango" { 1 }
+}
+
+folder13 {
+    label {Example L(3) - Rule 10(e3)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { L }
+    couples:finale { 23 33 43 53 63 73 }
+    couples:all { 23 33 43 53 63 73 }
+    "notes:73:Quickstep" { 6 }
+    "notes:23:Foxtrot" { 6 }
+    "notes:73:Tango" { 4 }
+    "notes:73:Waltz" { 1 }
+    "notes:43:Foxtrot" { 2 }
+    "notes:23:Quickstep" { 1 }
+    "notes:23:Tango" { 1 }
+    "notes:63:Foxtrot" { 3 }
+    "notes:23:Waltz" { 4 }
+    "notes:43:Quickstep" { 2 }
+    "notes:43:Tango" { 6 }
+    "notes:43:Waltz" { 3 }
+    "notes:63:Quickstep" { 4 }
+    "notes:63:Tango" { 3 }
+    "notes:63:Waltz" { 6 }
+    "notes:33:Foxtrot" { 4 }
+    "notes:53:Foxtrot" { 1 }
+    "notes:33:Quickstep" { 5 }
+    "notes:33:Tango" { 2 }
+    "notes:73:Foxtrot" { 5 }
+    "notes:33:Waltz" { 2 }
+    "notes:53:Quickstep" { 3 }
+    "notes:53:Tango" { 5 }
+    "notes:53:Waltz" { 5 }
+}
+
+folder14 {
+    label {Example L(4) - Rule 10(e4)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { L M }
+    couples:finale { 24 34 44 54 64 74 }
+    couples:all { 24 34 44 54 64 74 }
+    "notes:54:Waltz" { 6 6 }
+    "notes:74:Quickstep" { 6 5 }
+    "notes:24:Foxtrot" { 1 1 }
+    "notes:74:Tango" { 5 5 }
+    "notes:74:Waltz" { 5 5 }
+    "notes:44:Foxtrot" { 4 4 }
+    "notes:24:Quickstep" { 1 1 }
+    "notes:24:Tango" { 1 1 }
+    "notes:64:Foxtrot" { 3 3 }
+    "notes:24:Waltz" { 1 1 }
+    "notes:44:Quickstep" { 4 4 }
+    "notes:44:Tango" { 3 3 }
+    "notes:44:Waltz" { 4 4 }
+    "notes:64:Quickstep" { 5 6 }
+    "notes:64:Tango" { 6 6 }
+    "notes:64:Waltz" { 2 2 }
+    "notes:34:Foxtrot" { 5 5 }
+    "notes:54:Foxtrot" { 6 6 }
+    "notes:34:Quickstep" { 3 3 }
+    "notes:34:Tango" { 4 4 }
+    "notes:74:Foxtrot" { 2 2 }
+    "notes:34:Waltz" { 3 3 }
+    "notes:54:Quickstep" { 2 2 }
+    "notes:54:Tango" { 2 2 }
+}
+
+folder15 {
+    label {Example M - Rules 11(a)(b)(c)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { A B C D E }
+    couples:finale { 25 35 45 55 65 75 }
+    couples:all { 25 35 45 55 65 75 }
+    "notes:55:Quickstep" { 5 1 5 1 3 }
+    "notes:55:Tango" { 4 4 4 4 1 }
+    "notes:55:Waltz" { 3 3 6 3 6 }
+    "notes:75:Quickstep" { 6 3 3 4 5 }
+    "notes:25:Foxtrot" { 2 2 5 1 5 }
+    "notes:75:Tango" { 6 6 6 6 6 }
+    "notes:75:Waltz" { 5 4 4 6 2 }
+    "notes:45:Foxtrot" { 5 6 3 2 3 }
+    "notes:25:Quickstep" { 2 6 2 6 1 }
+    "notes:25:Tango" { 1 2 2 3 4 }
+    "notes:65:Foxtrot" { 6 4 6 6 4 }
+    "notes:25:Waltz" { 1 1 2 5 3 }
+    "notes:45:Quickstep" { 3 2 4 2 4 }
+    "notes:45:Tango" { 3 1 3 1 3 }
+    "notes:45:Waltz" { 4 5 3 1 1 }
+    "notes:65:Quickstep" { 4 4 6 3 6 }
+    "notes:65:Tango" { 2 5 5 5 5 }
+    "notes:65:Waltz" { 6 6 1 4 4 }
+    "notes:35:Foxtrot" { 1 1 2 5 2 }
+    "notes:55:Foxtrot" { 3 3 1 3 6 }
+    "notes:35:Quickstep" { 1 5 1 5 2 }
+    "notes:35:Tango" { 5 3 1 2 2 }
+    "notes:75:Foxtrot" { 4 5 4 4 1 }
+    "notes:35:Waltz" { 2 2 5 2 5 }
+}
+
+folder16 {
+    label {Example N - Rule 11(b)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { A B C D E }
+    couples:finale { 26 36 46 56 66 76 }
+    couples:all { 26 36 46 56 66 76 }
+    "notes:76:Foxtrot" { 6 4 6 6 4 }
+    "notes:36:Waltz" { 2 2 5 2 5 }
+    "notes:56:Quickstep" { 5 1 5 1 3 }
+    "notes:56:Tango" { 3 1 3 1 3 }
+    "notes:56:Waltz" { 4 5 3 1 1 }
+    "notes:76:Quickstep" { 4 4 6 3 6 }
+    "notes:26:Foxtrot" { 1 1 2 5 2 }
+    "notes:76:Tango" { 6 6 6 6 6 }
+    "notes:76:Waltz" { 5 4 4 6 2 }
+    "notes:46:Foxtrot" { 2 2 5 1 5 }
+    "notes:26:Quickstep" { 1 5 1 5 2 }
+    "notes:26:Tango" { 1 2 2 3 4 }
+    "notes:66:Foxtrot" { 4 5 4 4 1 }
+    "notes:26:Waltz" { 1 1 2 5 3 }
+    "notes:46:Quickstep" { 2 6 2 6 1 }
+    "notes:46:Tango" { 4 4 4 4 1 }
+    "notes:46:Waltz" { 3 3 6 3 6 }
+    "notes:66:Quickstep" { 6 3 3 4 5 }
+    "notes:66:Tango" { 2 5 5 5 5 }
+    "notes:66:Waltz" { 6 6 1 4 4 }
+    "notes:36:Foxtrot" { 5 6 3 2 3 }
+    "notes:56:Foxtrot" { 3 3 1 3 6 }
+    "notes:36:Quickstep" { 3 2 4 2 4 }
+    "notes:36:Tango" { 5 3 1 2 2 }
+}
+
+folder17 {
+    label {Example P - Rule 11(d)}
+    dances { "Waltz" "Tango" "Foxtrot" "Quickstep" }
+    judges { A B C D E }
+    couples:finale { 27 37 47 57 67 77 }
+    couples:all { 27 37 47 57 67 77 }
+    "notes:37:Quickstep" { 4 4 6 3 6 }
+    "notes:37:Tango" { 3 1 3 1 3 }
+    "notes:77:Foxtrot" { 6 4 6 6 4 }
+    "notes:37:Waltz" { 3 3 6 3 6 }
+    "notes:57:Quickstep" { 6 3 3 4 5 }
+    "notes:57:Tango" { 4 4 4 4 1 }
+    "notes:57:Waltz" { 1 1 2 5 3 }
+    "notes:77:Quickstep" { 3 2 4 2 4 }
+    "notes:27:Foxtrot" { 3 3 1 3 6 }
+    "notes:77:Tango" { 5 3 1 2 2 }
+    "notes:77:Waltz" { 5 4 4 6 2 }
+    "notes:47:Foxtrot" { 4 5 4 4 1 }
+    "notes:27:Quickstep" { 2 6 2 6 1 }
+    "notes:27:Tango" { 1 2 2 3 4 }
+    "notes:67:Foxtrot" { 2 2 5 1 5 }
+    "notes:27:Waltz" { 2 2 5 2 5 }
+    "notes:47:Quickstep" { 1 5 1 5 2 }
+    "notes:47:Tango" { 2 5 5 5 5 }
+    "notes:47:Waltz" { 4 5 3 1 1 }
+    "notes:67:Quickstep" { 5 1 5 1 3 }
+    "notes:67:Tango" { 6 6 6 6 6 }
+    "notes:67:Waltz" { 6 6 1 4 4 }
+    "notes:37:Foxtrot" { 1 1 2 5 2 }
+    "notes:57:Foxtrot" { 5 6 3 2 3 }
+}
+

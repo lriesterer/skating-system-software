@@ -1,0 +1,163 @@
+{L.T. 6-9 1L} Mazurka {type L.T. age:min 6 age:max 9 level 1L} normal
+{L.T. 6-9 2L} {Mazurka Polka} {type L.T. age:min 6 age:max 9 level 2L} normal
+{L.T. 6-9 3L} {Mazurka Polka Valzer} {type L.T. age:min 6 age:max 9 level 3L} normal
+{L.T. 10-11 1L} Mazurka {type L.U. age:min 10 age:max 11 level 1L} normal
+{L.T. 10-11 2L} {Mazurka Polka} {type L.U. age:min 10 age:max 11 level 2L} normal
+{L.T. 10-11 3L} {Mazurka Polka Valzer} {type L.U. age:min 10 age:max 11 level 3L} normal
+{L.T. 12-13 1L} Mazurka {type L.T. age:min 12 age:max 13 level 1L} normal
+{L.T. 12-13 2L} {Mazurka Polka} {type L.T. age:min 12 age:max 13 level 2L} normal
+{L.T. 12-13 3L} {Mazurka Polka Valzer} {type L.T. age:min 12 age:max 13 level 3L} normal
+{L.T. 14-15 1L} Mazurka {type L.T. age:min 14 age:max 15 level 1L} normal
+{L.T. 14-15 2L} {Mazurka Polka} {type L.T. age:min 14 age:max 15 level 2L} normal
+{L.T. 14-15 3L} {Mazurka Polka Valzer} {type L.T. age:min 14 age:max 15 level 3L} normal
+{L.T. 16-18 1L} Mazurka {type L.T. age:min 16 age:max 18 level 1L} normal
+{L.T. 16-18 2L} {Mazurka Polka} {type L.T. age:min 16 age:max 18 level 2L} normal
+{L.T. 16-18 3L} {Mazurka Polka Valzer} {type L.T. age:min 16 age:max 18 level 3L} normal
+{L.U. 6-9 1L} Mazurka {type L.U. age:min 6 age:max 9 level 1L} normal
+{L.U. 6-9 2L} {Mazurka Polka} {type L.U. age:min 6 age:max 11 level 2L} normal
+{L.U. 6-9 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 6 age:max 9 level 3L} normal
+{L.U. 10-11 1L} Mazurka {type L.U. age:min 10 age:max 11 level 1L} normal
+{L.U. 10-11 2L} {Mazurka Polka} {type L.U. age:min 10 age:max 11 level 2L} normal
+{L.U. 10-11 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 10 age:max 11 level 3L} normal
+{L.U. 12-13 1L} Mazurka {type L.U. age:min 12 age:max 13 level 1L} normal
+{L.U. 12-13 2L} {Mazurka Polka} {type L.U. age:min 12 age:max 13 level 2L} normal
+{L.U. 12-13 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 12 age:max 13 level 3L} normal
+{L.U. 14-15 1L} Mazurka {type L.U. age:min 14 age:max 15 level 1L} normal
+{L.U. 14-15 2L} {Mazurka Polka} {type L.U. age:min 14 age:max 15 level 2L} normal
+{L.U. 14-15 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 14 age:max 15 level 3L} normal
+{L.U. 16-18 1L} Mazurka {type L.U. age:min 16 age:max 18 level 1L} normal
+{L.U. 16-18 2L} {Mazurka Polka} {type L.U. age:min 16 age:max 18 level 2L} normal
+{L.U. 16-18 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 16 age:max 18 level 3L} normal
+{B.S. 6-9 1L} Waltz {type B.S. age:min 6 age:max 9 level 1L} normal
+{B.S. 6-9 2L} {Waltz Tango} {type B.S. age:min 6 age:max 9 level 2L} normal
+{B.S. 6-9 3L} {Waltz Tango Foxtrot} {type B.S. age:min 6 age:max 9 level 3L} normal
+{B.S. 10-11 1L} Waltz {type B.S. age:min 10 age:max 11 level 1L} normal
+{B.S. 10-11 2L} {Waltz Tango} {type B.S. age:min 10 age:max 11 level 2L} normal
+{B.S. 10-11 3L} {Waltz Tango Foxtrot} {type B.S. age:min 10 age:max 11 level 3L} normal
+{B.S. 12-13 1L} Waltz {type B.S. age:min 12 age:max 13 level 1L} normal
+{B.S. 12-13 2L} {Waltz Tango} {type B.S. age:min 12 age:max 13 level 2L} normal
+{B.S. 12-13 3L} {Waltz Tango Foxtrot} {type B.S. age:min 12 age:max 13 level 3L} normal
+{B.S. 14-15 1L} Waltz {type B.S. age:min 14 age:max 15 level 1L} normal
+{B.S. 14-15 2L} {Waltz Tango} {type B.S. age:min 14 age:max 15 level 2L} normal
+{B.S. 14-15 3L} {Waltz Tango Foxtrot} {type B.S. age:min 14 age:max 15 level 3L} normal
+{B.S. 16-18 1L} Waltz {type B.S. age:min 16 age:max 18 level 1L} normal
+{B.S. 16-18 2L} {Waltz Tango} {type B.S. age:min 16 age:max 18 level 2L} normal
+{B.S. 16-18 3L} {Waltz Tango Foxtrot} {type B.S. age:min 16 age:max 18 level 3L} normal
+{ST 6-9 1L} Waltz {type ST age:min 6 age:max 9 level 1L} normal
+{ST 6-9 2L} {Waltz Tango} {type ST age:min 6 age:max 9 level 2L} normal
+{ST 6-9 3L} {Waltz Tango Quickstep} {type ST age:min 6 age:max 9 level 3L} normal
+{ST 6-9 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 6 age:max 9 level CLD} normal
+{ST 10-11 1L} Waltz {type ST age:min 10 age:max 11 level 1L} normal
+{ST 10-11 2L} {Waltz Tango} {type ST age:min 10 age:max 11 level 2L} normal
+{ST 10-11 3L} {Waltz Tango Quickstep} {type ST age:min 10 age:max 11 level 3L} normal
+{ST 10-11 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 10 age:max 11 level CLD} normal
+{ST 12-13 1L} Waltz {type ST age:min 12 age:max 13 level 1L} normal
+{ST 12-13 2L} {Waltz Tango} {type ST age:min 12 age:max 13 level 2L} normal
+{ST 12-13 3L} {Waltz Tango Quickstep} {type ST age:min 12 age:max 13 level 3L} normal
+{ST 12-13 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 12 age:max 13 level CLD} normal
+{ST 14-15 1L} Waltz {type ST age:min 14 age:max 15 level 1L} normal
+{ST 14-15 2L} {Waltz Tango} {type ST age:min 14 age:max 15 level 2L} normal
+{ST 14-15 3L} {Waltz Tango Quickstep} {type ST age:min 14 age:max 15 level 3L} normal
+{ST 14-15 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 14 age:max 15 level CLD} normal
+{ST 16-18 1L} Waltz {type ST age:min 16 age:max 18 level 1L} normal
+{ST 16-18 2L} {Waltz Tango} {type ST age:min 16 age:max 18 level 2L} normal
+{ST 16-18 3L} {Waltz Tango Quickstep} {type ST age:min 16 age:max 18 level 3L} normal
+{ST 16-18 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 16 age:max 18 level CLD} normal
+{LA 6-9 1L} {{Cha Cha}} {type LA age:min 6 age:max 9 level 1L} normal
+{LA 6-11 2L} {{Cha Cha} Rumba} {type LA age:min 6 age:max 11 level 2L} normal
+{LA 6-9 3L} {{Cha Cha} Rumba Jive} {type LA age:min 6 age:max 9 level 3L} normal
+{LA 6-9 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 6 age:max 9 level CLD} normal
+{LA 10-11 1L} {{Cha Cha}} {type LA age:min 10 age:max 11 level 1L} normal
+{LA 10-11 2L} {{Cha Cha} Rumba} {type LA age:min 10 age:max 11 level 2L} normal
+{LA 10-11 3L} {{Cha Cha} Rumba Jive} {type LA age:min 10 age:max 11 level 3L} normal
+{LA 10-11 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 10 age:max 11 level CLD} normal
+{LA 12-13 1L} {{Cha Cha}} {type LA age:min 12 age:max 13 level 1L} normal
+{LA 12-13 2L} {{Cha Cha} Rumba} {type LA age:min 12 age:max 13 level 2L} normal
+{LA 12-13 3L} {{Cha Cha} Rumba Jive} {type LA age:min 12 age:max 13 level 3L} normal
+{LA 12-13 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 12 age:max 13 level CLD} normal
+{LA 14-15 1L} {{Cha Cha}} {type LA age:min 14 age:max 15 level 1L} normal
+{LA 14-15 2L} {{Cha Cha} Rumba} {type LA age:min 14 age:max 15 level 2L} normal
+{LA 14-15 3L} {{Cha Cha} Rumba Jive} {type LA age:min 14 age:max 15 level 3L} normal
+{LA 14-15 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 14 age:max 15 level CLD} normal
+{LA 16-18 1L} {{Cha Cha}} {type LA age:min 16 age:max 18 level 1L} normal
+{LA 16-18 2L} {{Cha Cha} Rumba} {type LA age:min 16 age:max 18 level 2L} normal
+{LA 16-18 3L} {{Cha Cha} Rumba Jive} {type LA age:min 16 age:max 18 level 3L} normal
+{LA 16-18 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 16 age:max 18 level CLD} normal
+{L.T. 19-34 1L} Mazurka {type L.T. age:min 19 age:max 34 level 1L} normal
+{L.T. 19-34 2L} {Mazurka Polka} {type L.T. age:min 19 age:max 34 level 2L} normal
+{L.T. 19-34 3L} {Mazurka Polka Valzer} {type L.T. age:min 19 age:max 34 level 3L} normal
+{L.U. 19-34 1L} Mazurka {type L.U. age:min 19 age:max 34 level 1L} normal
+{L.U. 19-34 2L} {Mazurka Polka} {type L.U. age:min 19 age:max 34 level 2L} normal
+{L.U. 19-34 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 19 age:max 34 level 3L} normal
+{B.S. 19-34 1L} Waltz {type B.S. age:min 19 age:max 34 level 1L} normal
+{B.S. 19-34 2L} {Waltz Tango} {type B.S. age:min 19 age:max 34 level 2L} normal
+{B.S. 19-34 3L} {Waltz Tango Foxtrot} {type B.S. age:min 19 age:max 34 level 3L} normal
+{L.T. 35-45 1L} Mazurka {type L.T. age:min 35 age:max 45 level 1L} normal
+{L.T. 35-45 2L} {Mazurka Polka} {type L.T. age:min 35 age:max 45 level 2L} normal
+{L.T. 35-45 3L} {Mazurka Polka Valzer} {type L.T. age:min 35 age:max 45 level 3L} normal
+{L.T. 46-55 1L} Mazurka {type L.T. age:min 46 age:max 55 level 1L} normal
+{L.T. 46-55 2L} {Mazurka Polka} {type L.T. age:min 46 age:max 55 level 2L} normal
+{L.T. 46-55 3L} {Mazurka Polka Valzer} {type L.T. age:min 46 age:max 55 level 3L} normal
+{L.T. 56-+ 1L} Mazurka {type L.T. age:min 56 age:max + level 1L} normal
+{L.T. 56-+ 2L} {Mazurka Polka} {type L.T. age:min 56 age:max + level 2L} normal
+{L.T. 56-+ 3L} {Mazurka Polka Valzer} {type L.T. age:min 56 age:max + level 3L} normal
+{L.U. 35-45 1L} Mazurka {type L.U. age:min 35 age:max 45 level 1L} normal
+{L.U. 35-45 2L} {Mazurka Polka} {type L.U. age:min 35 age:max 45 level 2L} normal
+{L.U. 35-45 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 35 age:max 45 level 3L} normal
+{L.U. 46-55 1L} Mazurka {type L.U. age:min 46 age:max 55 level 1L} normal
+{L.U. 46-55 2L} {Mazurka Polka} {type L.U. age:min 46 age:max 55 level 2L} normal
+{L.U. 46-55 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 46 age:max 55 level 3L} normal
+{L.U. 56-+ 1L} Mazurka {type L.U. age:min 56 age:max + level 1L} normal
+{L.U. 56-+ 2L} {Mazurka Polka} {type L.U. age:min 56 age:max + level 2L} normal
+{L.U. 56-+ 3L} {Mazurka Polka {Viennese Waltz}} {type L.U. age:min 56 age:max + level 3L} normal
+{B.S. 35-45 1L} Waltz {type B.S. age:min 35 age:max 45 level 1L} normal
+{B.S. 35-45 2L} {Waltz Tango} {type B.S. age:min 35 age:max 45 level 2L} normal
+{B.S. 35-45 3L} {Waltz Tango Foxtrot} {type B.S. age:min 35 age:max 45 level 3L} normal
+{B.S. 46-55 1L} Waltz {type B.S. age:min 46 age:max 55 level 1L} normal
+{B.S. 46-55 2L} {Waltz Tango} {type B.S. age:min 46 age:max 55 level 2L} normal
+{B.S. 46-55 3L} {Waltz Tango Foxtrot} {type B.S. age:min 46 age:max 55 level 3L} normal
+{B.S. 56-+ 1L} Waltz {type B.S. age:min 56 age:max + level 1L} normal
+{B.S. 56-+ 2L} {Waltz Tango} {type B.S. age:min 56 age:max + level 2L} normal
+{B.S. 56-+ 3L} {Waltz Tango Foxtrot} {type B.S. age:min 56 age:max + level 3L} normal
+{ST 19-34 1L} Waltz {type ST age:min 19 age:max 34 level 1L} normal
+{ST 19-34 2L} {Waltz Tango} {type ST age:min 19 age:max 34 level 2L} normal
+{ST 19-34 3L} {Waltz Tango Quickstep} {type ST age:min 19 age:max 34 level 3L} normal
+{ST 19-34 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 19 age:max 34 level CLD} normal
+{LA 19-34 1L} {{Cha Cha}} {type LA age:min 19 age:max 34 level 1L} normal
+{LA 19-34 2L} {{Cha Cha} Rumba} {type LA age:min 19 age:max 34 level 2L} normal
+{LA 19-34 3L} {{Cha Cha} Rumba Jive} {type LA age:min 19 age:max 34 level 3L} normal
+{LA 19-34 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 19 age:max 34 level CLD} normal
+{ST 35-45 1L} Waltz {type ST age:min 35 age:max 45 level 1L} normal
+{ST 35-45 2L} {Waltz Tango} {type ST age:min 35 age:max 45 level 2L} normal
+{ST 35-45 3L} {Waltz Tango Quickstep} {type ST age:min 35 age:max 45 level 3L} normal
+{ST 35-45 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 35 age:max 45 level CLD} normal
+{ST 46-55 1L} Waltz {type ST age:min 46 age:max 55 level 1L} normal
+{ST 46-55 2L} {Waltz Tango} {type ST age:min 46 age:max 55 level 2L} normal
+{ST 46-55 3L} {Waltz Tango Quickstep} {type ST age:min 46 age:max 55 level 3L} normal
+{ST 46-55 CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 46 age:max 55 level CLD} normal
+{ST 56-+ 1L} Waltz {type ST age:min 56 age:max + level 1L} normal
+{ST 56-+ 2L} {Waltz Tango} {type ST age:min 56 age:max + level 2L} normal
+{ST 56-+ 3L} {Waltz Tango Quickstep} {type ST age:min 56 age:max + level 3L} normal
+{ST 56-+ CLD} {Waltz Tango {Slow Foxtrot} Quickstep {Viennese Waltz}} {type ST age:min 56 age:max + level CLD} normal
+{LA 35-45 1L} {{Cha Cha}} {type LA age:min 35 age:max 45 level 1L} normal
+{LA 35-45 2L} {{Cha Cha} Rumba} {type LA age:min 35 age:max 45 level 2L} normal
+{LA 35-45 3L} {{Cha Cha} Rumba Jive} {type LA age:min 35 age:max 45 level 3L} normal
+{LA 35-45 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 35 age:max 45 level CLD} normal
+{LA 46-55 1L} {{Cha Cha}} {type LA age:min 46 age:max 55 level 1L} normal
+{LA 46-55 2L} {{Cha Cha} Rumba} {type LA age:min 46 age:max 55 level 2L} normal
+{LA 46-55 3L} {{Cha Cha} Rumba Jive} {type LA age:min 46 age:max 55 level 3L} normal
+{LA 46-55 CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 46 age:max 55 level CLD} normal
+{LA 56-+ 1L} {{Cha Cha}} {type LA age:min 56 age:max + level 1L} normal
+{LA 56-+ 2L} {{Cha Cha} Rumba} {type LA age:min 56 age:max + level 2L} normal
+{LA 56-+ 3L} {{Cha Cha} Rumba Jive} {type LA age:min 56 age:max + level 3L} normal
+{LA 56-+ CLD} {{Cha Cha} Samba Rumba {Paso Doble} Jive} {type LA age:min 56 age:max + level CLD} normal
+{CA 16-34 1L} Salsa {type CA age:min 16 age:max 34 level 1L} normal
+{CA 16-34 2L} {Merengue Salsa} {type CA age:min 16 age:max 34 level 2L} normal
+{CA 16-34 3L} {Merengue Salsa Mambo} {type CA age:min 16 age:max 34 level 3L} normal
+{CA 35-+ 1L} Salsa {type CA age:min 35 age:max + level 1L} normal
+{CA 35-+ 2L} {Merengue Salsa} {type CA age:min 35 age:max + level 2L} normal
+{CA 35-+ 3L} {Merengue Salsa Mambo} {type CA age:min 35 age:max + level 3L} normal
+{TA 16-34 1L} {{Tango Argentino}} {type TA age:min 16 age:max 34 level 1L} normal
+{TA 16-34 2L(S)} {{Tango Argentino}} {type TA age:min 16 age:max 34 level 2L(S)} normal
+{TA 35-+ 1L} {{Tango Argentino}} {type TA age:min 35 age:max + level 1L} normal
+{TA 35-+ 2L(S)} {{Tango Argentino}} {type TA age:min 35 age:max + level 2L(S)} normal

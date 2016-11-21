@@ -1,0 +1,18 @@
+
+Pour construire un executable statique :
+
+- creer un repertoire tcltk8.x.y
+- decompiler tcl8.x.y et tk8.x.y dans tcltk8.x.y/
+- copier tcltk8.x.y/tcl8.x.y/win/mkd.bat --> tcltk8.x.y/
+- copier tcltk8.x.y/tcl8.x.y/win/rmd.bat --> tcltk8.x.y/
+
+
+- faire un vcvars32.bat
+
+- cd tcl8.4.1\win
+- nmake -nologo -f makefile.vc release OPTS=static
+- copier tcl8.4.1\win\Release\*.lib dans $(ROOT)
+
+- cd tk8.4.1\win
+- nmake -nologo -f makefile.vc release TCLDIR=..\..\tcl8.4.1 OPTS=static
+- copier tk8.4.1\win\Release\*.lib dans $(ROOT)

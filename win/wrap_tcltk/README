@@ -1,0 +1,74 @@
+Pour construire un executable statique :
+
+- creer un repertoire tcltk8.x.y
+- decompiler tcl8.x.y et tk8.x.y dans tcltk8.x.y/
+- copier tcltk8.x.y/tcl8.x.y/win/mkd.bat --> tcltk8.x.y/
+- copier tcltk8.x.y/tcl8.x.y/win/rmd.bat --> tcltk8.x.y/
+
+
+- puis sur chaque makefile
+	- remplacer : ROOT       --> (TCL/TK)ROOT
+	- remplacer : WINDIR     --> (TCL/TK)WINDIR
+	- remplacer : GENERICDIR --> (TCL/TK)GENERICDIR
+
+	- ajouter des -DSTATIC_BUILD dans les special cases obj
+	  et changer les DLL_BUILD en STATIC_BUILD
+
+	- dans les 'compile flags' changer -MD et - MDd en -MT et -MTd
+
+
+- creer wrap.mak en concatenant tcltk8.x.y/tcl8.x.y/win/makefile.vc
+                              + tcltk8.x.y/tk8.x.y/win/makefile.vc
+
+- insérer au début :
+
+	#---------------------------------------------------------------------
+	ROOT		= d:\work\tcltk8.2.3
+	DEVSTUDIO	= d:\progra~1\devstudio
+	
+	TCLROOT		= $(ROOT)\tcl8.2.3
+	TCLDIR            = $(TCLROOT)
+	TKROOT		= $(ROOT)\tk8.2.3
+
+	TOOLS32		= $(DEVSTUDIO)\vc
+	TOOLS32_rc	= $(DEVSTUDIO)\sharedide
+	TOOLS16		= d:\msvc
+
+	INSTALLDIR	= d:\work\Tcl
+	#---------------------------------------------------------------------
+
+- virer les targets (project specific target, chercher avec 'setup')
+  et inserer a la fin :
+
+	#---------------------------------------------------------------------
+	setup:
+		@mkd $(TMPDIR)
+		@mkd $(OUTDIR)
+	
+	tcl:   setup $(TCLSHOBJS) $(TCLOBJS)
+	tk:    setup $(WISHOBJS) $(TKOBJS)
+	
+	wrap.exe:	tcl tk
+		set LIB=$(TOOLS32)\lib
+		$(link32) $(ldebug) $(guilflags) -stack:2300000 \
+			-out:$@ \
+			libc$(DBGX).lib oldnames.lib kernel32.lib \
+			advapi32.lib user32.lib gdi32.lib \
+			comdlg32.lib winspool.lib \
+			$(WISHOBJS) $(TCLOBJS) $(TKOBJS)
+	
+	libs	:	libtcltk823.lib $(TMPDIR)\tk.res
+		xcopy $(TMPDIR)\tk.res .
+	
+	libtcltk823.lib:	tcl tk
+		set LIB=$(TOOLS32)\lib
+		$(link32) -lib $(lflags) \
+			-out:$@ \
+			$(TCLOBJS) $(TKOBJS)
+	#---------------------------------------------------------------------
+
+
+------------------------------------------------------------------------
+
+      make wrap.exe
+or    make libs

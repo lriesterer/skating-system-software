@@ -1,0 +1,45 @@
+
+- requiere Tcl 8.2 (pour -nocase dans 'string match')
+
+#-------------------------------------------------------------------------
+#	LIB TCL/TK STATIQUES
+#-------------------------------------------------------------------------
+- répertoire ../tcltk-x.x.x
+- copier les sources tcl-x.x.x et tk-x.x.x dans ../tcltk-x.x.x
+- copier mkd.bat et rmd.bat de tcl-x.x.x/win dans ../tcltk-x.x.x
+- copier vcvars32.bat dans ../tcltk-x.x.x
+- nmake -f wrap-xxx.mak libs
+                        ^^^^
+
+#-------------------------------------------------------------------------
+#	SKATING
+#-------------------------------------------------------------------------
+- copier *.c + *.ico + zlib/* dans un repertoire
+- support ZIP = my_zip/my_zip.c zlib/minizip/zip.[ch] dans un repertoire + Zlib-1.1.3
+- renommer winMain823.c --> winMain.c
+- copier skating.rc (ATTENTION: icon doit s'appeler "tk")
+
+- nmake -f skating.mak
+
+
+- couleur de fond de windows #c0c0c0  !=  Unix = #d9d9d9
+
+
+- mode d'emploi:
+	- monter repertoire '.../work/skating' sur F:
+	- monter repertoire '/tmp' sur G:
+	- procedure:
+		doskey
+		vcvars32
+		==== MISE A JOUR DE LA VERSION DANS skating.tcl
+		copy f:\3s_script* .
+		nmake -f skating.mak
+		==== DEFINIR LA VARIABLE D'ENVIRONNEMENT 'VERSION=xxx'
+		nmake -f skating.mak PACK     (UPX + génération setups
+					       + copie les fichiers dans /tmp pour utilisation via Makefile)
+
+
+
+#-------------------------------------------------------------------------
+#	USING		Tcl/Tk 8.3.3  +  Tktable 2.6
+#-------------------------------------------------------------------------

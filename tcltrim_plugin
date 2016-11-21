@@ -1,0 +1,195 @@
+#!/bin/sh
+# -*-Tcl-*-
+# the next line restarts using wish \
+exec tclsh "$0" "$@"
+
+#----------------------------------------------------------------------------------------------
+#	Remplace included file & image into a unique script
+#----------------------------------------------------------------------------------------------
+
+proc DoFile {filename {msg Trimming}} {
+global out language windows
+
+	puts "$msg $filename"
+
+	set src [open $filename "r"]
+	set neednl 0
+	while {[eof $src] == 0} {
+		set line [gets $src]
+		# if debug "puts" or "TRACE"
+		if {[regexp {^puts.*} $line] || [regexp {^TRACE.*} $line]} {
+			continue
+		}
+		# trim it & analyse
+		set line [string trim $line]
+		regsub -all "\[\t\]+" $line " " line
+
+		if {$line == ""} {
+			continue
+		} elseif {[string index $line 0] == "#"} {
+			continue
+		} elseif {[regexp {^source (.*)} $line {} name]} {
+			if {[string first "\$" $name] == -1} {
+				if {[llength $name]==1} {
+					puts $out ""
+					# check lang
+					if {[regexp {^(.*)__(.*)} $name {} base dummy]} {
+						DoFile "${base}__${language}.tcl" "    Sourcing"
+					} else {
+						DoFile "$name" "    Sourcing"
+					}
+					continue
+				}
+			} else {
+				if {[string first "\$tk_library" $name] != -1} {
+					# skip the "source [file join $tk_library ...]"
+					puts "    Skiping $line"
+					continue
+				} else {
+					puts "    Adding '$line'"
+				}
+			}
+		} elseif {[regexp {^(image create .*) -file(.*)} $line {} cmd name]} {
+			set name [string trim $name]
+			puts -nonewline $out "\n$cmd -data \{"
+			if {[file extension $name] == ".gif"} {
+				if {[string match "*small_logo*" $name] && $windows} {
+					set name "./win/small_logo_windows.gif"
+			    }
+				puts "       image =  $name"
+				puts -nonewline $out [toBase64 $name]
+			} elseif {[file extension $name] == ".xpm"} {
+				DoFile "$name" "       image = "
+			} else {
+				puts "ERROR : image format not supported for $name"
+				exit
+			}
+			set line "\}"
+		}
+
+		if {$neednl==1 && ($line=="\}" || $line=="\} else \{")} {
+			set neednl 0
+		}
+		if {$neednl==0 && ([string range $line 0 1] == "0x")} {
+			set neednl 1
+		}
+		if {$neednl} {
+			puts $out ""
+		}
+
+		set idx [expr [string length $line]-1]
+		set last [string range $line $idx $idx]
+		if {$last=="\{"} {
+			set neednl 0
+		} elseif {$last =="\\"} {
+			set neednl 0
+			set line [string range $line 0 [expr [string length $line]-2]]
+			set last [string range $line $idx $idx]
+			if {$last != " " && $last != "\t"} {
+				append line " "
+			}
+		} else {
+			set neednl 1
+		} 
+
+		puts -nonewline $out $line
+
+	}
+	puts $out ""
+	close $src
+}
+
+#----------------------------------------------------------------------------------------------
+#	Convert to BASE64 encoding (used for images)
+#----------------------------------------------------------------------------------------------
+
+proc toBase64 {filename} {
+	set file [open $filename "r"]
+	fconfigure $file -translation binary
+	set img [read $file]
+	close $file
+
+	set len [string length $img]
+	append img "   "
+
+	set base64 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
+	set result ""
+	for {set i 0} {$i < $len} {} {
+		binary scan $img "@${i}c" c1
+		set c1 [expr ($c1 + 0x100 ) % 0x100]
+		binary scan $img "@[expr $i+1]c" c2
+		set c2 [expr ($c2 + 0x100 ) % 0x100]
+		binary scan $img "@[expr $i+2]c" c3
+		set c3 [expr ($c3 + 0x100 ) % 0x100]
+
+		set idx [expr $c1>>2]
+		append result "[string index $base64 $idx]"
+
+		set idx [expr (($c1 & 0x3)<< 4) | (($c2 & 0xF0) >> 4)]
+		append result "[string index $base64 $idx]"
+
+		if {$i+1 < $len} {
+			set idx [expr (($c2 & 0xF) << 2) | (($c3 & 0xC0) >>6)]
+			append result "[string index $base64 $idx]"
+		} else {
+			append result "="
+		}
+
+		if {$i+2 < $len} {
+			set idx [expr ($c3 & 0x3F)]
+			append result "[string index $base64 $idx]"
+		} else {
+			append result "="
+		}
+
+		incr i 3
+
+#		if {[expr ($i % 54)] == 0} {
+#			append result "\n"
+#		}
+	}
+
+	return $result
+}
+
+#----------------------------------------------------------------------------------------------
+#	Check if language file is sync
+#----------------------------------------------------------------------------------------------
+
+namespace eval skating {}
+
+proc check_language {lang} {
+	set error 0
+	source skating__french.tcl
+	set ref [array names msg]
+	unset msg
+
+	source skating__$lang.tcl
+	set current [array names msg]
+	foreach name [lsort $ref] {
+		if {![info exists msg($name)]} {
+			puts "<<$lang>> missing '$name'"
+			set error 1
+		}
+	}
+	foreach name [lsort $current] {
+		if {[lsearch -exact $ref $name] == -1} {
+			puts "<<$lang>> unused '$name'"
+			set error 1
+		}
+	}
+	return $error
+}
+
+
+
+#==============================================================================================
+
+if {$argc != 1} {
+	puts stderr "Usage: $argv0 filename"
+}
+
+set out [open "[file rootname [lindex $argv 0]].tt" "w"]
+DoFile [lindex $argv 0]
+close $out

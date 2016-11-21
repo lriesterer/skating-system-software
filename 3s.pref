@@ -1,0 +1,13 @@
+
+pref:mode:compmgr 1
+
+	pref:mode:linkOCM			1
+pref:mode:linkOCM			0
+	pref:mode:linkOCM:DBserver	"server"
+	pref:mode:linkOCM:DBuser	"user"
+	pref:mode:linkOCM:DBpassword "pwd"
+	pref:mode:linkOCM:DBdatabase "database"
+	pref:mode:linkOCM:server	"192.168.0.2"
+	pref:mode:linkOCM:id		1
+	pref:mode:linkOCM:wireless	1
+	pref:mode:linkOCM:autologin	1

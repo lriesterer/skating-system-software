@@ -1,0 +1,675 @@
+newJudge {New adjudicator}
+prt:results Results
+dlg:editdanceShortLabel {Enter abbreviation:}
+sameAs {Sames couples as for ...}
+rounds Rounds
+saving:autosave2 {minutes (0 to desactivate)}
+round:64 {1/64 Finale}
+prt:couples2 couples
+color:orange {Vertical label for tables (active)}
+sortby:school school
+prt:competitions Competitions
+marksSheetsMode {Marks sheets mode}
+dlg:couplesReinit {Modifying the selection of couples will reinitialize the notes already given.
+
+Do you want to continue ?}
+dlg:resetRounds {The couples for the next round are already defined.
+
+If you continue, the data for the next round will be lost.}
+eventManagement {Event management}
+result:computing:msg {Couples processed :}
+keepCouples {Couples to keep}
+round:semi.2 {1/2 Finale (+)}
+templates:file {Default file for competitions templates}
+attributes:_organizer Organizer
+selectionCouples {Couples selection}
+other Other
+prt:chairman Chairman
+heatsCouplesGrouping {Couples grouping mode}
+fileSkatingSkt {Skating/Templates files}
+web:repeatHeaderSummary:2 couples
+web:links:header {}
+prt:heats {Heat list for the round}
+print:date Date
+remarks Remarks
+round:__result__ {}
+manual Manual
+uptodate {Up to date}
+dateFormat {%B %d, %Y}
+color:flash {Active template or panel}
+tot Tot.
+dlg:editgroups {Groups edition}
+copyFrom Copy
+prt:skipped skipped
+round {selected round}
+dlg:coupleUseAlias {Cannot suppress this couple because aliases are defined.}
+prt:sign Sign
+result:extended:place {Details by place}
+heatsPrint? {Print adjusticators' sheets with the heats list}
+select2 select
+dlg:cannotWeb {An error occured while generating the Web site part for '%s'.}
+colors:finale {Colors in the finales}
+byCouple {By couple}
+validation Validation
+prt:scrutineer Scrutineer
+dancesSelection {Dances selection}
+round:64.2 {1/64 Finale (+)}
+dlg:ignore Ignore
+round:128.2 {1/128 Finale (+)}
+language:help {"Alt+Up/Down:" blue  "\tSelect to previous/next item to translate\n" normal}
+attributes Attributes
+rescue Keep
+prt:school School/Club
+paper {Paper size}
+options:colors Colors
+prt:yes yes
+print:smallbold {Small bold text}
+dlg:cantOpen {Can't open the file}
+createPreFinale {Create Pre-finale}
+remaining remaining
+deselectAll {Deselect all the adjudicators}
+print:options Options
+landscape landscape
+tip:comp:moveup {Move competition upwards (Ctrl+Up)}
+prt:idsf:report {Competition Report}
+font:folder Large
+portrait portrait
+markSheetsLayout Layout
+fileDatabase {Skating/Database files}
+Heats Heats
+margin:right Right
+detail:sign signatures
+category Category
+help:panels:edit {"Edit name:" blue  "\tF2 or double-click on cell (Escape to cancel)\n" normal}
+dlg:coupleMany {The couples}
+color:lightyellow2 {Horizontal label for alternates tables}
+round:256 {1/256 Finale}
+dlg:cancel Cancel
+generateFolderName {Competition name auto-generate}
+language:new {New ...}
+label Label
+dlg:save Save
+prt:selected {%1$d couples selected for %4$s (%2$d asked)}
+format:general {Generic line}
+format Format
+web:customization Customization
+heatsNoCompact {one dance per page}
+help:judges:error {ERREUR: adjudicator's letter already used}
+dlg:print:all all
+tip:comp:new {New competition (Ctrl+C)}
+language:language Language
+color:selected {Selected adjudicator}
+round:short:semi 1/2
+license:maxallowed {Valid up to version}
+allJudges {All adjudicators}
+round:short:1024 1/1024
+round:short:16 1/16
+detail:listCouples {couples list}
+detail:color {colors in tables}
+language:edit Edition
+roundManagement {Rounds management}
+prt:explainPrequalifSplit {(%1$d prequalified, %2$d+%3$d=%4$d couples among %5$d for '%6$s')}
+prt:general Event
+license:expiry {Valid until}
+graphic graphic
+heatsNoSheets {no, just couples & heats}
+nextRound {Next round}
+prt:rule Rule
+db:activate Activate
+name Name
+prt:Heat Heat
+printing:page {Printing page}
+help:finale {"Left,right,up,down, home and end" blue  "\tmoves in the table\n" normal  "1 to 9" blue  "\tinputs a note for the current couple and dance\n" normal  "A to Z" blue  "\tPress the letter of the judge to active it" normal}
+help:couples:error {ERROR: duplicate number for couple}
+couples Couples
+useInResult {dance used in result computation}
+dlg:new:msg {You can quickly create generic couples and adjudicators.
+Use the spinboxes below:}
+prt:prequalified2 prequalified
+round:short:eight.2 1/8+
+startIn {Starting round: }
+prt:produced {Produced with}
+newSheetOnJudge? {Print each judge}
+force Force
+dlg:retry Retry
+db:file File
+print:normal Normal
+remove:panel {Remove
+a panel}
+margins Margins
+round:short:32 1/32
+dlg:coupleUsed {Cannot suppress this couple used in:}
+round:short:finale F
+selectByPanel {Selection with the panels}
+prt:set {Couples set}
+folderSummary:couple {competition summary (by couple)}
+judgesOnly {adjudicators only}
+options:templates Templates
+help:couples:paste1 {ERREUR: cannot read the clipboard (empty or unsupported format)}
+attributes:_masterCeremony {Master of Ceremony}
+newSheetOnJudge {Start each judge on a new sheet}
+help:couples:paste2 {ERREUR: couples' numbers duplicated in the clipboard}
+dlg:removePanel {Do you really want to suppress the panel }
+web:email {e-mail address}
+help:couples:paste3 {ERREUR: conflicting number between table and clipboard}
+prt:couplesRegistered {registered couples}
+prt:placeFrom {Place from}
+web:logo {Logo to insert in the pages}
+prt:judges Adjudicators
+color:exclusion:text {Excluded couples (text)}
+excludedFrom {Excluded of}
+lady Lady
+help:couples:alias {ERROR: can not create alias because the root couple does not exist}
+prt:nbcouples {Number of couples in competition}
+heatsListJudges adjudicators
+format:header {Main header, line}
+checkEnrollment:groupByCountry {group by country first}
+help:couples:alias2 {ERROR: can not rename the couple because some aliases are defined}
+newSheetOnJudgeN {after the last one}
+help:judges:edit {"To edit a cell:" blue  "\tdirect input, F2 or double-click on cell (Escape to cancel)\n" normal  "Remove an adjudicator:" blue  "\tUse the buttons on the right" normal}
+web:repeatHeader:2 couples
+schoolClub School/Club
+help:couples:edit {"To edit a cell:" blue  "\tdirect input, F2 or double-click on cell (Escape to abort)\n" normal  "To add a couple:" blue  "\tUse insert buttons or go to last row" normal}
+prt:placeAbbrev P
+numberSorting {Sort by numbers}
+prt:panel Panel
+tip:name {print the couple or judge name in the tip in the input zone}
+pages pages
+summary:couple {summary by couple}
+merge Merge
+prt:resultsFinale {Finale Results}
+prt:explainRule {Use of rule $nb}
+prt:notAvailable {Not available}
+dlg:editdanceLabel {Enter the name of the dance:}
+margin:top Bottom
+Panels Panels
+dlg:error Error
+attributes:agemax {Maximal age}
+web:headers {headers repeat}
+web:generating:msg {Competitions processed :}
+web:output:rounds {rounds & finale}
+dlg:errorWrite {The save failed. Please check that your disk is not full.}
+webOutput Internet
+listPanels {list of panels}
+noJudges {No adjudicators}
+prt:couple Cple
+web:repeatCouples:2 dances
+web:filenameSKA {Format .SKA filename}
+newSheetOnJudgeY {on a new sheet}
+round:short:quarter 1/4
+dlg:pleaseWait {Please wait ...}
+input Input
+yes yes
+round:finale.2 {}
+license:demo {Evaluation version}
+colors Colors
+checkEnrollment:pageBreak {start each school/club on a new page}
+prt:country Pays
+web:repeatCouples {couple's number every}
+heatsCompact {all on one page}
+heatsIn in
+idsf:report {IDSF report}
+dlg:loadTooRecent {The file you have loaded has been generated by a more recent version of the program. Some data will not be processed and will be lost if you save the file.
+
+Please upgrade your program (http://laurent.riesterer.free.fr/skating/download.html).}
+color:lightorange {Horizontal label for tables (active)}
+no no
+of of
+newCompetition {New competition}
+round:short:eight 1/8
+notation:ten {ten dances}
+couples:twoAndMore {couples selected}
+detail:judgesResult {adjudicators' names (finale)}
+round:short:64 1/64
+dlg:print Print
+dlg:cantSave {Can't save the file}
+round:short:128 1/128
+notation:normal normal
+removeall {Remove all}
+redisplay2 {Redisplay
+(sort by letter)}
+Panel Panel
+round:prefinale.2 {}
+round:short:32.2 1/32+
+dlg:saveAsDefault {Save as default parameters}
+license:id {Unique ID number}
+dances:new {New dance ...}
+tip:comp:delete {Delete competition (Ctrl+Suppr)}
+tip:options {User settings & customization}
+prt:rounds Rounds
+color:exclusion {Excluded couples (background)}
+separateInputGrid {Separate input grid for the number}
+copies Copies
+round:eight.2 {1/8 Finale (+)}
+prt:enrollment:judges {Enrollment of the judges for the competitions}
+man Man
+margin:bottom Top
+attributes:age {Age class}
+general General
+sortby:name name
+prt:majority majority
+detail:judges {adjudicators' names (rounds)}
+color:activeDance {Active dance}
+db:filename Filename
+detail:order {order rounds by total of marks}
+dlg:abort Abort
+prt:selectedPrequalif {%1$d couples selected for %4$s (%2$d asked, %3$d prequalified)}
+detail:listJudges {adjudicators list}
+prt:place Place
+database Database
+dlg:webDone {The Web site was successfully generated.
+
+The main page is at "%s"}
+explicitNames {Use explicit names by default}
+resultsSheets Results
+add:template {Add
+a template}
+prt:headerTot {Tot. Kept}
+color:print:light {tables column color}
+idsf:table {IDSF table of results}
+names:rounds {Display adjudicators' names in rounds}
+attributes:_music Music
+prt:explainPrequalif {(%1$d prequalified, %2$d couples among %5$d for '%6$s')}
+web:repeatHeader {main header every}
+result:simple {Global results}
+panels panels
+prt:total Total
+options:dances Dances
+fileLanguage {Language file}
+active active
+print:summaries {Summaries printing}
+edit {Edit ...}
+fromclip2 {Remove all
+& paste}
+detail:couplesResult {couples' names (finale)}
+colors:printing {Colors for printing}
+dlg:cannotWrite {The program cannot write '%s'.
+
+Verify that this is not a CD-ROM or that the permissions are correct.}
+web:output:idsf {IDSF data}
+choose {Choose ...}
+dlg:roundModeReinit {Modifying the round management mode will reinitialize the notes already given.
+
+Do you want to continue ?}
+except except
+heatsAlphabetic alphabetic
+judgesEnrollment {table judges/competitions}
+prt:sumInFinale {Sum of places in final}
+attributes:_chairman Chairman
+tip:print {Print (Ctrl+P)}
+startingRound {Starting round for }
+prt:summary {Competition summary}
+fileImages {Images files}
+round:quarter {1/4 Finale}
+selection Selection
+saving Saving
+panel panel
+web:links {Additional links}
+dlg:editdance {Dance edition}
+dlg:demoMode {License file is invalid or has expired. The software will run in evaluation mode (limited saving and printing).}
+rankingFinal {Final ranking}
+attributes:_scrutineer Scrutineer(s)
+heatsCompact?2 {Print the all dances on one page}
+redisplay {Redisplay
+(sort by #)}
+license:registred {Registered to}
+folderNaming {Pattern used to generate the competition name}
+competitionsEnrollment:dances {print dances}
+checkEnrollment:withResults {print the results when available}
+noName unknown
+prt:roundMaxi {Best round reached by the couples}
+dlg:demoNotAvailable {Not available in this evaluation version.
+Please go to http://laurent.riesterer.free.fr/skating to register.}
+load {Load ...}
+prt:name Name
+color:choosenprequalif {Prequalified couple}
+fileSkating {Skating files}
+round:16.2 {1/16 Finale (+)}
+dlg:question Question
+preview preview
+marksSheets {Jugdes' sheets}
+round:short:prefinale PreF
+dlg:dancesReinit {Removing this dance which is used in some rounds will reinitialize the notes starting from the first round using it.
+
+Do you want to continue ?}
+prt:selNotDone {no selection done}
+options:print Printing
+define Define
+web:filenameZIP {Web site archive filename}
+web:parameters Parameters
+country Country
+dlg:dancesReinit2 {If you remove this dance which is used in the finale, you will loose the notes entered for this dance in the finale.
+
+Do you want to continue ?}
+color:yellow {Vertical label for tables}
+dlg:judgeMany {The adjudicators}
+couples:none {No couples selected}
+colors:judges {Color when selecting adjudicators}
+competing competing
+round:short:64.2 1/64+
+format:marksheet:landscape:header {Marksheet header, landscape, line}
+judge Adjudicator
+print:bold Bold
+format:marksheet:landscape:data {Top zone, landscape, ligne}
+round:prefinale Pre-Finale
+dlg:modifiedDB {The database used for quick entry has been modified.
+
+Do you want to change the modifications before to quit ?}
+attributes:agemin {Minimal age}
+wholeCompetition {selected competition}
+naming {Use explicits names}
+margin:left Left
+to To
+round:short:512 1/512
+options:print2 {Printing (2)}
+dance:couple {each dance by couple}
+checkEnrollment {table showing couples/competitions to check enrollment}
+best Round
+secondChance {second chance}
+dlg:quickinput {Quick input}
+attributes:ageext {Extra info age}
+result Result
+detail:comment {associated comment}
+checkEnrollment:groupBySchool {group by school/club first}
+help:couples:groups {"Affect each couple in a number range.\nClick OK to give number in respect to the alphabetical order in each group (a group by numbers range)." blue }
+dlg:new:couples {Number numbered from}
+checkEnrollment:number {by number}
+insert:after {Insert after}
+colors:general {Global colors}
+insert:before {Insert before}
+prt:couplesNb #
+print:subtitle Sub-title
+options:database Database
+printing:msg {Competitions processed :}
+replace Replace
+place Place
+layout Layout
+dlg:judgesReinit {Modifying the selection of adjudicators will reinitialize the notes already given after and including this round.
+
+Do you want to continue ?}
+result:computing {Computing results}
+couples:among {couples among}
+saving:backup {Generate backups (.bak.ska) when saving}
+listPanels:perRow {panels per row}
+byPlace {By place}
+attributes:_member Member
+dlg:langFailed {Error while loading language preferences.}
+dlg:modifiedSave {Some data have been modified.
+
+Do you want to save them before exiting ?}
+dlg:judgeUsed {Cannot suppress this adjudicator used in:}
+explain:ten {explanations (rules 10 & 11) for 10-dances results}
+round:short:semi.2 1/2+
+formatting {Header format}
+printing Printing
+round:eight {1/8 Finale}
+color:competition {Active round display}
+options:general General
+total Total
+fromclip Paste
+summary:place {summary by place}
+dances Dances
+prt:dataFor3S {Raw file for use with 3S software}
+colors:rounds {Colors for rounds with direct selection}
+templates Templates
+couples:one {couple selected}
+round:short:quarter.2 1/4+
+tip:open {Open file (Ctrl+O)}
+add Add
+number Num.
+prt:final {Final ranking}
+competitionsList {competitions list}
+prt:dance Dance
+attributes:type Discipline
+font:title Medium
+toclip {Copy all}
+result:extended:couple {Details by couple}
+detail:place:nb {couples to mark}
+print Printing
+dlg:print:page {current page}
+summary Summary
+round:quarter.2 {1/4 Finale (+)}
+search Search
+templates:danses {Danses set templates}
+colors:competition {Colors for competitions}
+dlg:openPrinter {Can't acces to the printer.}
+dlg:new:judges {Number of adjudicators}
+color:colselected {Selected round}
+heatsSize size
+none None
+tip:event {Definition and management of couples and juges (Ctrl+D)}
+heatsListNone none
+sortby:country country
+color:print:dark {tables header color}
+dlg:bugReport {Internal error.
+
+Please send a bug report to laurent.riesterer@free.fr and include the file '3s.bugreport' you will find in the installation directory of the program.}
+detailLevel1 {Detail level (general)}
+spareBoxes {Extra boxes}
+formatRestore {Restore default values}
+detailLevel2 {Detail level (rounds & finale)}
+color:placebad {Mark is in conflict}
+options:attributes Attributes
+page page
+attributes:_support Support
+keep {Take or skip}
+print:subscript Superscript
+apply Apply
+showNewAtSartup {Show quick create dialog at startup}
+color:activeCompetition {Active competition}
+db:help {"To modify the database, open the file with a text editor. The data are stored into three variables called " normal  "judges" blue " for the adjudicators' names, " normal  "couples" blue " for the couples' names and " normal  "schools" blue " for the schools/clubs.\n\n" normal  "The data are saved in alphabatical order to ease the edition. However, the order of the data in the file does not matter.\n\n" normal  "Export/Import allow you to save the data in columns. Theses data can be modified with Excel and then imported.\n\n" normal}
+heatsGeneration {Automatic heats generation}
+judgesInSummary:0 {on a separate sheet}
+fileAll {All files}
+round:finale Finale
+useCountry {'Country' instead 
+of 'School/Club'}
+heatsMarkingSheets {Print adjusticators' sheets}
+judgesInSummary:1 {on each sheet}
+dlg:yes Yes
+dlg:standard {Standard mode}
+web:generating:page {Pages generated}
+web:generating {Generating Web site}
+help:rounds {}
+color:finishedCompetition {Finished competition}
+heatsListBoth {adjudicators & dances}
+prt:idsf:table {Table of Results}
+couplesAndJudges {couples & adjudicators}
+clearall {Clear all}
+web:output {Data to output}
+50%rule {Force 50% of selected couples from one round to the next}
+prt:panels {List of adjudicators panels}
+db:import {Import from clipboard (Paste)}
+full {details for each dance}
+comment Comments
+dlg:removeTemplate {Do you really want to suppress the template }
+hint Hint
+prt:competitions:list {Competitions list}
+fileText {Text files}
+round:128 {1/128 Finale}
+competitions Competitions
+setting Settings
+prt:siteArchive {Web site ZIP archive}
+color:choosenbad {Not enough or too much selected couples}
+save {Save ...}
+print:small {Small text}
+round:semi {1/2 Finale}
+web:output:summaries {summaries by couple & place}
+heatsSheets yes
+round:short:256 1/256
+round:1024 {1/1024 Finale}
+dlg:confirmDiscard {Some data have been modified.
+
+If you continue, your modifications will be lost.}
+ranking Ranking
+dlg:confirmDelete {Do you really want to delete this competition ?}
+prt:statistics Statistics
+dlg:saveDBFailed {Can't save the database.
+
+Verify that the disk is not full or write-protected.}
+dlg:notSelected {You must select the couples in the previous rounds.}
+competitionsEnrollment:pageBreak2 {start each competition on a new page}
+dlg:loadDBFailed {An error occured while loading the database file. The completion database will be incomplete.
+}
+dlg:confirmDelete2 {Do you really want to delete the existing competition but currently not selected ?}
+prt:summaryFor {Summary for}
+prt:keepLabel Kept
+yes, yes,
+attributes:_place Place
+round:short:all All
+dlg:reallyQuit {Quit the program ?}
+dlg:templatesFailed {Error while loading competition templates}
+dlg:demoSave {Only the first competition will be saved in this evaluation version.
+Please go to http://laurent.riesterer.free.fr/skating to register.}
+color:finishedDance {Finished dance}
+all:rounds {details for all the rounds}
+tip:comp:movedown {Move competition downwards (Ctrl+Down)}
+judgesInSummary {Printing of adjudicators list in summaries}
+prt:index Home
+competitionsEnrollment:select {print number of couples to select}
+saving:autosave {Auto save every}
+firstChance {first chance}
+dlg:panelLocked {This panel is used in some already started competitions. It is locked and can not be modified.
+
+To change this panel for remaining competitions, create a new one and re-assign it to the competitions.}
+add:panel {Add
+a panel}
+format:block:idsf:report {Information block, IDSF report}
+remove:template {Remove
+a template}
+detail:useLetters {adjudicators' letter instead of X}
+color:lightyellow {Horizontal label for tables}
+tip:print:result1 {DIRECT printing of couples heats for the next round}
+color:place {Mark is correct}
+heatsRandom random
+tip:print:result2 {DIRECT printing of couples heats & mark sheets for the next round}
+dlg:layout {Layout ...}
+tip:print:result3 {DIRECT printing of couples & judges for the next round}
+school School
+attributes:level Level
+heatsPrintLists {Print of lists for the round}
+competitionsEnrollment:judges {print judges}
+round: {}
+among {couples among the}
+dlg:coupleOne {The couple}
+orientation {Paper orientation}
+checkEnrollment:pageBreak2 {start each country on a new page}
+dlg:errorWriteBackup {An emergency backup has been saved in '%s'. Please send it to the author to correct the problem.}
+detail:useAverage {average place instead of X-Y}
+tip:save {Save file (Ctrl+S)}
+prt:class Rank.
+format:marksheet:portrait:footer {Marksheet footer, portrait}
+round:short:128.2 1/128+
+prt:placeTo to
+web:repeatHeaderSummary {main header in summaries every}
+web:outputdir {Output directory}
+print:all {Printing of all the competitions}
+modify Modify
+months {January February March April May June July August September October November December}
+options:rounds {Rounds & finale}
+dlg:notDefined {You must define the danses, the couples and the adjudicators before selecting a round.}
+detail:place {place of the first couples}
+options:language Language
+print:rounds {Results printing}
+event Event
+dlg:prefFailed {Error while loading user preferences.}
+dlg:demoPrint {Only the first page will be printed in this evaluation version.
+Please go to http://laurent.riesterer.free.fr/skating to register.}
+other... {Other ...}
+dlg:print:from {Print pages from}
+create Create
+dlg:options {Options ...}
+dlg:notImplemented {Fonction not implemented yet.}
+remove Remove
+sortby:number number
+prt:result Result
+rule Rule
+letter Letter
+Couple Couple
+dances:help {"<Up>/<Down>:" blue  "\tSelect a dance\n" normal  "<Shift>+<Up>/<Down>:" blue  "\tMove the dance\n" normal  "<Ins>/<Del>:" blue  "\tInsert a new dance / delete the dance" normal}
+judges:button:compact {in 'adjudicators', one unique button for 10-dances competitions}
+round:16 {1/16 Finale}
+title Title
+prt:rules Rules
+filePostscript {Postscript files}
+dlg:saveAs {Save as ...}
+from From
+names:finale {Display adjudicators' names in finales}
+prt:tot Tot.
+prt:resultShort Re
+prt:round Rnd
+select Select
+dances:separator {Add a separator}
+color:choosengood {Correct numbre of selected couples}
+detail:useSmallFont {small font for couples & adjudicators}
+prt:prequalified Prequalified
+color:notselected {Non selected adjudicator}
+round:short:16.2 1/16+
+prt:enrollment:couples {Enrollment of the couples for the competitions}
+db:activate:judges {Activate completion for jugdes}
+help:judges:paste1 {ERREUR: cannot read the clipboard (empty or unsupported format)}
+dlg:saveDefaultsFailed {An error occured while trying to save default parameters.}
+prt:dances Dances
+dances:edit {Edit dance ...}
+heatsNumber number
+help:judges:paste2 {ERREUR: adjudicators' letters duplicated in the clipboard}
+dlg:no No
+prt:place:short Plc
+font:date Small
+heatsListDances dances
+forRound {for round}
+help:judges:paste3 {ERREUR: conflicting letter between table and clipboard}
+round:32.2 {1/32 Finale (+)}
+round:32 {1/32 Finale}
+prt:judgesRegistered {registered adjudicators}
+help:judges:paste4 {ERREUR: wrong adjudicator format : should be LETTER + (optional) LETTER or NUMBER}
+format:marksheet:portrait:header {Marksheet header, portrait, line}
+folderSummary:place {competition summary (by place)}
+all All
+explain:finale {Display ranking computation in finales}
+round:512 {1/512 Finale}
+judges Adjudicators
+heatsCompact? {Print the dances}
+dlg:ok OK
+margin:text {For a portrait orientation (margins are swapped for using landscape orientation)}
+checkEnrollment:alphabetic {by alphabetical order}
+detail:explain {explanations (rules 10 & 11)}
+resultFor {results for}
+fileSkatingPref {Skating/Pref files}
+date Date
+compSelected0 {No competition selected (on %2$d defined competitions)}
+rename Rename
+Round Round
+tip:new {New file (Ctrl+N)}
+print:title Title
+compSelected1 {%1$d competition selected (on %2$d defined competitions)}
+dance:place {each dance by place}
+compSelected2 {%1$d competitions selected (on %2$d defined competitions)}
+dlg:judgeOne {The adjudicator}
+choice Choice
+round:short: {}
+notation {Marking system}
+prt:page Page
+prt:keep {$nb kept}
+text text
+spareBoxes1 Add
+heatsSizeDefault {Default size for heats}
+spareBoxes2 {extra boxes for late entries}
+competitionsEnrollment {table showing couples & judges for each competition}
+automatic Automatic
+dlg:plugin {Use plug-in}
+couplesToExclude {Couples to exclude}
+prt:final:dances {Ranking by dance}
+db:export {Export to clipboard (Copy)}
+print:comment Comments
+resultCompetition {results for the selected competition}
+help:templates:edit {"Edit dance's name:" blue  "\tdouble-click on the name (Escape to cancel)\n" normal  "Dances order:" blue  "\tUse Up/Down buttons\n" normal}
+dlg:new:couples2 to
+prt:couples Couples
+dlg:print:to to
+sortby {Sort by}
+web:links:data {}
+signSheets {Adjudicators must sign the mark sheets}
+db:activate:couples {Activate completion for couples & schools}
+eventSheets {Global data}
+dlg:information Information

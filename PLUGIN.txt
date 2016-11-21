@@ -1,0 +1,24 @@
+___________________________________________________________________________
+
+	FORMAT USED FOR THE PLUGINS
+___________________________________________________________________________
+
+
+--------------
+Event creation
+--------------
+
+    --> skating::plugin(IO) = {label command ...}
+    --> proc command {} { ... }
+
+
+---------------
+Printing plugin
+---------------
+
+    --> skating::plugin(print) = {label category item command ...}
+
+	     where category = global | markSheets | results | web
+		   item = see skating_print.tcl
+
+    --> proc command {} { ... }

@@ -1,0 +1,25 @@
+#!/bin/sh
+# -*-Tcl-*-
+# the next line restarts using wish \
+exec tclsh "$0" "$@"
+
+
+foreach f [glob skating__*.tcl] {
+	if {[string match "skating__plugin*" $f]} {
+		continue
+	}
+
+	scan $f {skating__%[^.].tcl} name
+	namespace eval skating {}
+
+	puts "Processing '$name' ..."
+
+	source $f
+
+	set out [open "data/$name.lang" "w"]
+	fconfigure $out -encoding utf-8
+	foreach n [array name msg] {
+		puts $out "$n [list $msg($n)]"
+	}
+	close $out
+}

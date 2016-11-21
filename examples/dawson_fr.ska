@@ -1,0 +1,675 @@
+event {
+	couples			{ 10 11 12 13 14 15 16 17 18 19 
+					20 21 22 23 24 25 26 27 28 29
+					30 31 32 33 34 35 36 37 38 39
+					40 41 42 43 44 45 46 47 48 49
+					50 51 52 53 54 55 56 57 58 59
+					60 61 62 63 64 65 66 67 68 69
+					70 71 72 73 74 75 76 77 78 79 }
+	judges			{ A B C D E F G H J K L M }
+
+	folders			{ folder1 folder2 folder3 folder4 folder5
+				  folder6 folder7 folder8 folder9 folder10
+				  folder11 folder12 folder13 folder14
+				  folder15 folder16 folder17 }
+
+	general:title		{Le "Skating System" selon Arthur Dawson}
+	general:comment		{Exemples donnés pour apprendre le système de notation.
+Utilisés pour valider le programme.}
+
+    name:10           {Martin 10}
+    name:11           {Martin 11}
+    name:12           {Martin 12}
+    name:13           {Martin 13}
+    name:14           {Martin 14}
+    name:15           {Martin 15}
+    name:16           {Martin 16}
+    name:17           {Martin 17}
+    name:18           {Martin 18}
+    name:19           {Martin 19}
+    name:20           {Dupond 20}
+    name:21           {Dupond 21}
+    name:22           {Dupond 22}
+    name:23           {Dupond 23}
+    name:24           {Dupond 24}
+    name:25           {Dupond 25}
+    name:26           {Dupond 26}
+    name:27           {Dupond 27}
+    name:28           {Dupond 28}
+    name:29           {Dupond 29}
+    name:30           {Dupond 30}
+    name:31           {Dupond 31}
+    name:32           {Dupond 32}
+    name:33           {Dupond 33}
+    name:34           {Dupond 34}
+    name:35           {Dupond 35}
+    name:36           {Dupond 36}
+    name:37           {Dupond 37}
+    name:38           {Dupond 38}
+    name:39           {Dupond 39}
+    name:40           {Durant 40}
+    name:41           {Durant 41}
+    name:42           {Durant 42}
+    name:43           {Durant 43}
+    name:44           {Durant 44}
+    name:45           {Durant 45}
+    name:46           {Durant 46}
+    name:47           {Durant 47}
+    name:48           {Durant 48}
+    name:49           {Durant 49}
+    name:50           {Durant 50}
+    name:51           {Durant 51}
+    name:52           {Durant 52}
+    name:53           {Durant 53}
+    name:54           {Durant 54}
+    name:55           {Durant 55}
+    name:56           {Durant 56}
+    name:57           {Durant 57}
+    name:58           {Durant 58}
+    name:59           {Durant 59}
+    name:60           {Untel 60}
+    name:61           {Untel 61}
+    name:62           {Untel 62}
+    name:63           {Untel 63}
+    name:64           {Untel 64}
+    name:65           {Untel 65}
+    name:66           {Untel 66}
+    name:67           {Untel 67}
+    name:68           {Untel 68}
+    name:69           {Untel 69}
+    name:70           {Untel 70}
+    name:71           {Untel 71}
+    name:72           {Untel 72}
+    name:73           {Untel 73}
+    name:74           {Untel 74}
+    name:75           {Untel 75}
+    name:76           {Untel 76}
+    name:77           {Untel 77}
+    name:78           {Untel 78}
+    name:79           {Untel 79}
+    school:10           {Ecole 1}
+    school:11           {Ecole 1}
+    school:12           {Ecole 1}
+    school:13           {Ecole 1}
+    school:14           {Ecole 1}
+    school:15           {Ecole 1}
+    school:16           {Ecole 1}
+    school:17           {Ecole 1}
+    school:18           {Ecole 1}
+    school:19           {Ecole 1}
+    school:20           {Ecole 2}
+    school:21           {Ecole 2}
+    school:22           {Ecole 2}
+    school:23           {Ecole 2}
+    school:24           {Ecole 2}
+    school:25           {Ecole 2}
+    school:26           {Ecole 2}
+    school:27           {Ecole 2}
+    school:28           {Ecole 2}
+    school:29           {Ecole 2}
+    school:30           {Ecole 3}
+    school:31           {Ecole 3}
+    school:32           {Ecole 3}
+    school:33           {Ecole 3}
+    school:34           {Ecole 3}
+    school:35           {Ecole 3}
+    school:36           {Ecole 3}
+    school:37           {Ecole 3}
+    school:38           {Ecole 3}
+    school:39           {Ecole 3}
+    school:40           {Ecole 4}
+    school:41           {Ecole 4}
+    school:42           {Ecole 4}
+    school:43           {Ecole 4}
+    school:44           {Ecole 4}
+    school:45           {Ecole 4}
+    school:46           {Ecole 4}
+    school:47           {Ecole 4}
+    school:48           {Ecole 4}
+    school:49           {Ecole 4}
+    school:50           {Ecole 5}
+    school:51           {Ecole 5}
+    school:52           {Ecole 5}
+    school:53           {Ecole 5}
+    school:54           {Ecole 5}
+    school:55           {Ecole 5}
+    school:56           {Ecole 5}
+    school:57           {Ecole 5}
+    school:58           {Ecole 5}
+    school:59           {Ecole 5}
+    school:60           {Ecole 6}
+    school:61           {Ecole 6}
+    school:62           {Ecole 6}
+    school:63           {Ecole 6}
+    school:64           {Ecole 6}
+    school:65           {Ecole 6}
+    school:66           {Ecole 6}
+    school:67           {Ecole 6}
+    school:68           {Ecole 6}
+    school:69           {Ecole 6}
+    school:70           {Ecole 7}
+    school:71           {Ecole 7}
+    school:72           {Ecole 7}
+    school:73           {Ecole 7}
+    school:74           {Ecole 7}
+    school:75           {Ecole 7}
+    school:76           {Ecole 7}
+    school:77           {Ecole 7}
+    school:78           {Ecole 7}
+    school:79           {Ecole 7}
+
+	name:A			{juge A}
+	name:B			{juge B}
+	name:C			{juge C}
+	name:D			{juge D}
+	name:E			{juge E}
+	name:F			{juge F}
+	name:G			{juge G}
+	name:H			{juge H}
+	name:J			{juge J}
+	name:K			{juge K}
+	name:L			{juge L}
+	name:M			{juge M}
+}
+
+folder1 {
+	label			"Exemple A - Règle 5"
+	couples:all		{ 11 21 31 41 51 61 }
+	couples:finale	{ 11 21 31 41 51 61 }
+	dances			{ "Valse lente" }
+	judges			{ A B C D E }
+	"notes:11:Valse lente"	{ 1 5 1 1 2 }
+	"notes:21:Valse lente"	{ 2 2 5 4 1 }
+	"notes:31:Valse lente"	{ 3 3 3 2 3 }
+	"notes:41:Valse lente"	{ 4 4 2 3 4 }
+	"notes:51:Valse lente"	{ 5 1 4 5 5 }
+	"notes:61:Valse lente"	{ 6 6 6 6 6 }
+}
+
+folder2 {
+	label			"Exemple B - Règle 6"
+	couples:all		{ 12 22 32 42 52 62 }
+	couples:finale	{ 12 22 32 42 52 62 }
+	dances			{ "Tango" }
+	judges			{ A B C D E }
+	notes:12:Tango		{ 1 1 1 4 4 }
+	notes:22:Tango		{ 3 2 2 1 1 }
+	notes:32:Tango		{ 2 5 5 2 2 }
+	notes:42:Tango		{ 4 3 4 5 3 }
+	notes:52:Tango		{ 5 4 3 3 5 }
+	notes:62:Tango		{ 6 6 6 6 6 }
+}
+
+folder3 {
+	label			"Exemple C - Règle 7(a)"
+	couples:all		{ 13 23 33 43 53 63 }
+	couples:finale		{ 13 23 33 43 53 63 }
+	dances			{ "Valse Viennoise" }
+	judges			{ A B C D E }
+	"notes:13:Valse Viennoise"	{ 1 1 1 5 5 }
+	"notes:23:Valse Viennoise"	{ 2 2 5 1 4 }
+	"notes:33:Valse Viennoise"	{ 5 5 2 2 2 }
+	"notes:43:Valse Viennoise"	{ 3 3 4 6 1 }
+	"notes:53:Valse Viennoise"	{ 4 4 3 3 3 }
+	"notes:63:Valse Viennoise"	{ 6 6 6 4 6 }
+}
+
+folder4 {
+	label			"Exemple D - Règle 7(b)"
+	couples:all		{ 14 24 34 44 54 64 }
+	couples:finale		{ 14 24 34 44 54 64 }
+	dances			{ "Slow Foxtrot" }
+	judges			{ A B C D E }
+	"notes:14:Slow Foxtrot"	{ 2 1 5 1 1 }
+	"notes:24:Slow Foxtrot"	{ 1 2 2 5 5 }
+	"notes:34:Slow Foxtrot"	{ 5 6 1 2 2 }
+	"notes:44:Slow Foxtrot"	{ 3 3 4 3 6 }
+	"notes:54:Slow Foxtrot"	{ 4 4 3 6 4 }
+	"notes:64:Slow Foxtrot"	{ 6 5 6 4 3 }
+}
+
+folder5 {
+	label			"Exemple E - Règle (8)"
+	couples:all		{ 15 25 35 45 55 65 }
+	couples:finale	{ 15 25 35 45 55 65 }
+	dances			{ "Quickstep" }
+	judges			{ A B C D E }
+	notes:15:Quickstep	{ 1 1 3 2 3 }
+	notes:25:Quickstep	{ 6 5 4 1 1 }
+	notes:35:Quickstep	{ 2 4 1 5 5 }
+	notes:45:Quickstep	{ 4 2 5 6 2 }
+	notes:55:Quickstep	{ 5 6 2 3 4 }
+	notes:65:Quickstep	{ 3 3 6 4 6 }
+}
+
+folder6 {
+	label			"Exemple F - Règle 9(a)"
+	couples:all		{ 16 26 36 46 56 66 }
+	couples:finale		{ 16 26 36 46 56 66 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ F }
+
+	"notes:16:Valse lente"	{ 1 }
+	"notes:26:Valse lente"	{ 3 }
+	"notes:36:Valse lente"	{ 2 }
+	"notes:46:Valse lente"	{ 4 }
+	"notes:56:Valse lente"	{ 5 }
+	"notes:66:Valse lente"	{ 6 }
+
+	notes:16:Tango		{ 2 }
+	notes:26:Tango		{ 1 }
+	notes:36:Tango		{ 3 }
+	notes:46:Tango		{ 4 }
+	notes:56:Tango		{ 5 }
+	notes:66:Tango		{ 6 }
+
+	"notes:16:Slow Foxtrot"	{ 2 }
+	"notes:26:Slow Foxtrot"	{ 1 }
+	"notes:36:Slow Foxtrot"	{ 3 }
+	"notes:46:Slow Foxtrot"	{ 4 }
+	"notes:56:Slow Foxtrot"	{ 5 }
+	"notes:66:Slow Foxtrot"	{ 6 }
+
+	notes:16:Quickstep	{ 2 }
+	notes:26:Quickstep	{ 4 }
+	notes:36:Quickstep	{ 3 }
+	notes:46:Quickstep	{ 1 }
+	notes:56:Quickstep	{ 6 }
+	notes:66:Quickstep	{ 5 }
+}
+
+folder7 {
+	label			"Exemple G - Règles 10(a) et (d)"
+	couples:all		{ 17 27 37 47 57 67 }
+	couples:finale		{ 17 27 37 47 57 67 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ G }
+
+	"notes:17:Valse lente"	{ 1 }
+	"notes:27:Valse lente"	{ 3 }
+	"notes:37:Valse lente"	{ 2 }
+	"notes:47:Valse lente"	{ 4 }
+	"notes:57:Valse lente"	{ 6 }
+	"notes:67:Valse lente"	{ 5 }
+
+	notes:17:Tango		{ 1 }
+	notes:27:Tango		{ 3 }
+	notes:37:Tango		{ 5 }
+	notes:47:Tango		{ 2 }
+	notes:57:Tango		{ 6 }
+	notes:67:Tango		{ 4 }
+
+	"notes:17:Slow Foxtrot"	{ 2 }
+	"notes:27:Slow Foxtrot"	{ 1 }
+	"notes:37:Slow Foxtrot"	{ 4 }
+	"notes:47:Slow Foxtrot"	{ 3 }
+	"notes:57:Slow Foxtrot"	{ 5 }
+	"notes:67:Slow Foxtrot"	{ 6 }
+
+	notes:17:Quickstep	{ 5 }
+	notes:27:Quickstep	{ 2 }
+	notes:37:Quickstep	{ 4 }
+	notes:47:Quickstep	{ 6 }
+	notes:57:Quickstep	{ 1 }
+	notes:67:Quickstep	{ 3 }
+}
+
+folder8 {
+	label			"Exemple H - Règles 10(b)(§1) et (d)"
+	couples:all		{ 18 28 38 48 58 68 }
+	couples:finale		{ 18 28 38 48 58 68 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ H }
+
+	"notes:18:Valse lente"	{ 3 }
+	"notes:28:Valse lente"	{ 1 }
+	"notes:38:Valse lente"	{ 2 }
+	"notes:48:Valse lente"	{ 4 }
+	"notes:58:Valse lente"	{ 5 }
+	"notes:68:Valse lente"	{ 6 }
+
+	notes:18:Tango		{ 1 }
+	notes:28:Tango		{ 2 }
+	notes:38:Tango		{ 3 }
+	notes:48:Tango		{ 4 }
+	notes:58:Tango		{ 5 }
+	notes:68:Tango		{ 6 }
+
+	"notes:18:Slow Foxtrot"	{ 1 }
+	"notes:28:Slow Foxtrot"	{ 2 }
+	"notes:38:Slow Foxtrot"	{ 3 }
+	"notes:48:Slow Foxtrot"	{ 4 }
+	"notes:58:Slow Foxtrot"	{ 5 }
+	"notes:68:Slow Foxtrot"	{ 6 }
+
+	notes:18:Quickstep	{ 1 }
+	notes:28:Quickstep	{ 6 }
+	notes:38:Quickstep	{ 3 }
+	notes:48:Quickstep	{ 5 }
+	notes:58:Quickstep	{ 2 }
+	notes:68:Quickstep	{ 4 }
+}
+
+folder9 {
+	label			"Exemple J - Règles 10(b)(§2) et (d)"
+	couples:all		{ 19 29 39 49 59 69 }
+	couples:finale		{ 19 29 39 49 59 69 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ J }
+
+	"notes:19:Valse lente"	{ 2 }
+	"notes:29:Valse lente"	{ 1 }
+	"notes:39:Valse lente"	{ 3 }
+	"notes:49:Valse lente"	{ 4 }
+	"notes:59:Valse lente"	{ 6 }
+	"notes:69:Valse lente"	{ 5 }
+
+	notes:19:Tango		{ 1 }
+	notes:29:Tango		{ 2 }
+	notes:39:Tango		{ 3 }
+	notes:49:Tango		{ 4 }
+	notes:59:Tango		{ 5 }
+	notes:69:Tango		{ 6 }
+
+	"notes:19:Slow Foxtrot"	{ 1 }
+	"notes:29:Slow Foxtrot"	{ 3 }
+	"notes:39:Slow Foxtrot"	{ 2 }
+	"notes:49:Slow Foxtrot"	{ 5 }
+	"notes:59:Slow Foxtrot"	{ 4 }
+	"notes:69:Slow Foxtrot"	{ 6 }
+
+	notes:19:Quickstep	{ 1 }
+	notes:29:Quickstep	{ 4 }
+	notes:39:Quickstep	{ 2 }
+	notes:49:Quickstep	{ 5 }
+	notes:59:Quickstep	{ 3 }
+	notes:69:Quickstep	{ 6 }
+}
+
+folder10 {
+	label			"Exemple K - Règle 10(c)"
+	couples:all		{ 20 30 40 50 60 70 }
+	couples:finale		{ 20 30 40 50 60 70 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ K }
+
+	"notes:20:Valse lente"	{ 2 }
+	"notes:30:Valse lente"	{ 1 }
+	"notes:40:Valse lente"	{ 6 }
+	"notes:50:Valse lente"	{ 4 }
+	"notes:60:Valse lente"	{ 3 }
+	"notes:70:Valse lente"	{ 5 }
+
+	notes:20:Tango		{ 2 }
+	notes:30:Tango		{ 1 }
+	notes:40:Tango		{ 3 }
+	notes:50:Tango		{ 4 }
+	notes:60:Tango		{ 5 }
+	notes:70:Tango		{ 6 }
+
+	"notes:20:Slow Foxtrot"	{ 2 }
+	"notes:30:Slow Foxtrot"	{ 6 }
+	"notes:40:Slow Foxtrot"	{ 1 }
+	"notes:50:Slow Foxtrot"	{ 4 }
+	"notes:60:Slow Foxtrot"	{ 3 }
+	"notes:70:Slow Foxtrot"	{ 5 }
+
+	notes:20:Quickstep	{ 4 }
+	notes:30:Quickstep	{ 5 }
+	notes:40:Quickstep	{ 3 }
+	notes:50:Quickstep	{ 1 }
+	notes:60:Quickstep	{ 2 }
+	notes:70:Quickstep	{ 6 }
+}
+
+folder11 {
+	label			"Exemple L(1) - Règle 10(e1)"
+	couples:all		{ 21 31 41 51 61 71 }
+	couples:finale		{ 21 31 41 51 61 71 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ L }
+
+	"notes:21:Valse lente"	{ 1 }
+	"notes:31:Valse lente"	{ 4 }
+	"notes:41:Valse lente"	{ 2 }
+	"notes:51:Valse lente"	{ 3 }
+	"notes:61:Valse lente"	{ 5 }
+	"notes:71:Valse lente"	{ 6 }
+
+	notes:21:Tango		{ 1 }
+	notes:31:Tango		{ 4 }
+	notes:41:Tango		{ 5 }
+	notes:51:Tango		{ 6 }
+	notes:61:Tango		{ 2 }
+	notes:71:Tango		{ 3 }
+
+	"notes:21:Slow Foxtrot"	{ 3 }
+	"notes:31:Slow Foxtrot"	{ 1 }
+	"notes:41:Slow Foxtrot"	{ 2 }
+	"notes:51:Slow Foxtrot"	{ 4 }
+	"notes:61:Slow Foxtrot"	{ 6 }
+	"notes:71:Slow Foxtrot"	{ 5 }
+
+	notes:21:Quickstep	{ 5 }
+	notes:31:Quickstep	{ 1 }
+	notes:41:Quickstep	{ 2 }
+	notes:51:Quickstep	{ 3 }
+	notes:61:Quickstep	{ 4 }
+	notes:71:Quickstep	{ 6 }
+}
+
+folder12 {
+	label			"Exemple L(2) - Règle 10(e2)"
+	couples:all		{ 22 32 42 52 62 72 }
+	couples:finale		{ 22 32 42 52 62 72 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ L }
+
+	"notes:22:Valse lente"	{ 3 }
+	"notes:32:Valse lente"	{ 2 }
+	"notes:42:Valse lente"	{ 1 }
+	"notes:52:Valse lente"	{ 4 }
+	"notes:62:Valse lente"	{ 5 }
+	"notes:72:Valse lente"	{ 6 }
+
+	notes:22:Tango		{ 5 }
+	notes:32:Tango		{ 2 }
+	notes:42:Tango		{ 6 }
+	notes:52:Tango		{ 4 }
+	notes:62:Tango		{ 3 }
+	notes:72:Tango		{ 1 }
+
+	"notes:22:Slow Foxtrot"	{ 2 }
+	"notes:32:Slow Foxtrot"	{ 4 }
+	"notes:42:Slow Foxtrot"	{ 3 }
+	"notes:52:Slow Foxtrot"	{ 5 }
+	"notes:62:Slow Foxtrot"	{ 1 }
+	"notes:72:Slow Foxtrot"	{ 6 }
+
+	notes:22:Quickstep	{ 2 }
+	notes:32:Quickstep	{ 4 }
+	notes:42:Quickstep	{ 3 }
+	notes:52:Quickstep	{ 1 }
+	notes:62:Quickstep	{ 6 }
+	notes:72:Quickstep	{ 5 }
+}
+
+folder13 {
+	label			"Exemple L(3) - Règle 10(e3)"
+	couples:all		{ 23 33 43 53 63 73 }
+	couples:finale		{ 23 33 43 53 63 73 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ L }
+
+	"notes:23:Valse lente"	{ 4 }
+	"notes:33:Valse lente"	{ 2 }
+	"notes:43:Valse lente"	{ 3 }
+	"notes:53:Valse lente"	{ 5 }
+	"notes:63:Valse lente"	{ 6 }
+	"notes:73:Valse lente"	{ 1 }
+
+	notes:23:Tango		{ 1 }
+	notes:33:Tango		{ 2 }
+	notes:43:Tango		{ 6 }
+	notes:53:Tango		{ 5 }
+	notes:63:Tango		{ 3 }
+	notes:73:Tango		{ 4 }
+
+	"notes:23:Slow Foxtrot"	{ 6 }
+	"notes:33:Slow Foxtrot"	{ 4 }
+	"notes:43:Slow Foxtrot"	{ 2 }
+	"notes:53:Slow Foxtrot"	{ 1 }
+	"notes:63:Slow Foxtrot"	{ 3 }
+	"notes:73:Slow Foxtrot"	{ 5 }
+
+	notes:23:Quickstep	{ 1 }
+	notes:33:Quickstep	{ 5 }
+	notes:43:Quickstep	{ 2 }
+	notes:53:Quickstep	{ 3 }
+	notes:63:Quickstep	{ 4 }
+	notes:73:Quickstep	{ 6 }
+}
+
+folder14 {
+	label			"Exemple L(4) - Règle 10(e4)"
+	couples:all		{ 24 34 44 54 64 74 }
+	couples:finale		{ 24 34 44 54 64 74 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ L M }
+
+	"notes:24:Valse lente"	{ 1 1 }
+	"notes:34:Valse lente"	{ 3 3 }
+	"notes:44:Valse lente"	{ 4 4 }
+	"notes:54:Valse lente"	{ 6 6 }
+	"notes:64:Valse lente"	{ 2 2 }
+	"notes:74:Valse lente"	{ 5 5 }
+
+	notes:24:Tango		{ 1 1 }
+	notes:34:Tango		{ 4 4 }
+	notes:44:Tango		{ 3 3 }
+	notes:54:Tango		{ 2 2 }
+	notes:64:Tango		{ 6 6 }
+	notes:74:Tango		{ 5 5 }
+
+	"notes:24:Slow Foxtrot"	{ 1 1 }
+	"notes:34:Slow Foxtrot"	{ 5 5 }
+	"notes:44:Slow Foxtrot"	{ 4 4 }
+	"notes:54:Slow Foxtrot"	{ 6 6 }
+	"notes:64:Slow Foxtrot"	{ 3 3 }
+	"notes:74:Slow Foxtrot"	{ 2 2 }
+
+	notes:24:Quickstep	{ 1 1 }
+	notes:34:Quickstep	{ 3 3 }
+	notes:44:Quickstep	{ 4 4 }
+	notes:54:Quickstep	{ 2 2 }
+	notes:64:Quickstep	{ 5 6 }
+	notes:74:Quickstep	{ 6 5 }
+}
+
+folder15 {
+	label			"Exemple M - Règles 11(a)(b)(c)"
+	couples:all		{ 25 35 45 55 65 75 }
+	couples:finale		{ 25 35 45 55 65 75 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ A B C D E }
+
+	"notes:25:Valse lente"	{ 1 1 2 5 3 }
+	"notes:35:Valse lente"	{ 2 2 5 2 5 }
+	"notes:45:Valse lente"	{ 4 5 3 1 1 }
+	"notes:55:Valse lente"	{ 3 3 6 3 6 }
+	"notes:65:Valse lente"	{ 6 6 1 4 4 }
+	"notes:75:Valse lente"	{ 5 4 4 6 2 }
+
+	notes:25:Tango		{ 1 2 2 3 4 }
+	notes:35:Tango		{ 5 3 1 2 2 }
+	notes:45:Tango		{ 3 1 3 1 3 }
+	notes:55:Tango		{ 4 4 4 4 1 }
+	notes:65:Tango		{ 2 5 5 5 5 }
+	notes:75:Tango		{ 6 6 6 6 6 }
+
+	"notes:25:Slow Foxtrot"	{ 2 2 5 1 5 }
+	"notes:35:Slow Foxtrot"	{ 1 1 2 5 2 }
+	"notes:45:Slow Foxtrot"	{ 5 6 3 2 3 }
+	"notes:55:Slow Foxtrot"	{ 3 3 1 3 6 }
+	"notes:65:Slow Foxtrot"	{ 6 4 6 6 4 }
+	"notes:75:Slow Foxtrot"	{ 4 5 4 4 1 }
+
+	notes:25:Quickstep	{ 2 6 2 6 1 }
+	notes:35:Quickstep	{ 1 5 1 5 2 }
+	notes:45:Quickstep	{ 3 2 4 2 4 }
+	notes:55:Quickstep	{ 5 1 5 1 3 }
+	notes:65:Quickstep	{ 4 4 6 3 6 }
+	notes:75:Quickstep	{ 6 3 3 4 5 }
+}
+
+folder16 {
+	label			"Exemple N - Règle 11(b)"
+	couples:all		{ 26 36 46 56 66 76 }
+	couples:finale		{ 26 36 46 56 66 76 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ A B C D E }
+
+	"notes:26:Valse lente"	{ 1 1 2 5 3 }
+	"notes:36:Valse lente"	{ 2 2 5 2 5 }
+	"notes:46:Valse lente"	{ 3 3 6 3 6 }
+	"notes:56:Valse lente"	{ 4 5 3 1 1 }
+	"notes:66:Valse lente"	{ 6 6 1 4 4 }
+	"notes:76:Valse lente"	{ 5 4 4 6 2 }
+
+	notes:26:Tango		{ 1 2 2 3 4 }
+	notes:36:Tango		{ 5 3 1 2 2 }
+	notes:46:Tango		{ 4 4 4 4 1 }
+	notes:56:Tango		{ 3 1 3 1 3 }
+	notes:66:Tango		{ 2 5 5 5 5 }
+	notes:76:Tango		{ 6 6 6 6 6 }
+
+	"notes:26:Slow Foxtrot"	{ 1 1 2 5 2 }
+	"notes:36:Slow Foxtrot"	{ 5 6 3 2 3 }
+	"notes:46:Slow Foxtrot"	{ 2 2 5 1 5 }
+	"notes:56:Slow Foxtrot"	{ 3 3 1 3 6 }
+	"notes:66:Slow Foxtrot"	{ 4 5 4 4 1 }
+	"notes:76:Slow Foxtrot"	{ 6 4 6 6 4 }
+
+	notes:26:Quickstep	{ 1 5 1 5 2 }
+	notes:36:Quickstep	{ 3 2 4 2 4 }
+	notes:46:Quickstep	{ 2 6 2 6 1 }
+	notes:56:Quickstep	{ 5 1 5 1 3 }
+	notes:66:Quickstep	{ 6 3 3 4 5 }
+	notes:76:Quickstep	{ 4 4 6 3 6 }
+}
+
+folder17 {
+	label			"Exemple P - Règle 11(d)"
+	couples:all		{ 27 37 47 57 67 77 }
+	couples:finale		{ 27 37 47 57 67 77 }
+	dances			{ "Valse lente" "Tango" "Slow Foxtrot" "Quickstep" }
+	judges			{ A B C D E }
+
+	"notes:27:Valse lente"	{ 2 2 5 2 5 }
+	"notes:37:Valse lente"	{ 3 3 6 3 6 }
+	"notes:47:Valse lente"	{ 4 5 3 1 1 }
+	"notes:57:Valse lente"	{ 1 1 2 5 3 }
+	"notes:67:Valse lente"	{ 6 6 1 4 4 }
+	"notes:77:Valse lente"	{ 5 4 4 6 2 }
+
+	notes:27:Tango		{ 1 2 2 3 4 }
+	notes:37:Tango		{ 3 1 3 1 3 }
+	notes:47:Tango		{ 2 5 5 5 5 }
+	notes:57:Tango		{ 4 4 4 4 1 }
+	notes:67:Tango		{ 6 6 6 6 6 }
+	notes:77:Tango		{ 5 3 1 2 2 }
+
+	"notes:27:Slow Foxtrot"	{ 3 3 1 3 6 }
+	"notes:37:Slow Foxtrot"	{ 1 1 2 5 2 }
+	"notes:47:Slow Foxtrot"	{ 4 5 4 4 1 }
+	"notes:57:Slow Foxtrot"	{ 5 6 3 2 3 }
+	"notes:67:Slow Foxtrot"	{ 2 2 5 1 5 }
+	"notes:77:Slow Foxtrot"	{ 6 4 6 6 4 }
+
+	notes:27:Quickstep	{ 2 6 2 6 1 }
+	notes:37:Quickstep	{ 4 4 6 3 6 }
+	notes:47:Quickstep	{ 1 5 1 5 2 }
+	notes:57:Quickstep	{ 6 3 3 4 5 }
+	notes:67:Quickstep	{ 5 1 5 1 3 }
+	notes:77:Quickstep	{ 3 2 4 2 4 }
+}
